@@ -92,7 +92,7 @@
 			d-cache-size = <0x8000>;
 			d-cache-line-size = <0x40>;
 			d-cache-sets = <0x80>;
-			next-level-cache = <0x03>;
+			next-level-cache =  <0x03>;
 			operating-points-v2 = <0x05>;
 			#cooling-cells = <0x02>;
 			cpu-idle-states = <0x06>;
@@ -3285,3 +3285,6 @@
 		fsl,startup-delay-ms = <0x1f4>;
 	};
 };
+
+
+/* test */

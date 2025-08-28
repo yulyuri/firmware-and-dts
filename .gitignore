@@ -1,0 +1,48 @@
+# Build dirs (CMake/armgcc/MCUXpresso/etc.)
+build/
+out/
+dist/
+**/CMakeFiles/
+**/cmake-build*/
+**/CMakeCache.txt
+**/Makefile
+**/*.ninja
+**/CMakeLists.txt.user
+**/.cmake/api/
+**/.cache/
+
+# Toolchain-specific
+**/armgcc/**/debug/
+**/armgcc/**/release/
+**/armgcc/**/obj/
+**/iar/**
+**/mdk/**
+**/keil/**
+**/mcuxpresso*/**
+**/Debug/
+**/Release/
+
+# Binaries/objects/archives
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.elf
+*.map
+*.hex
+*.bin
+
+# IDE junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep only DTS & source
+# (adjust if you need more)
+# Example source patterns:
+# !M7/**/source/**
+# !M7/**/drivers/**
+# !M7/**/boards/**

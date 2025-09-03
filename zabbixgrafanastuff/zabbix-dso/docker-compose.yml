@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  zabbix:
+    image: zabbix/zabbix-appliance:alpine-latest
+    container_name: zabbix-1
+    ports:
+      - "8080:80"       # Zabbix frontend
+      - "10051:10051"   # Zabbix server
+    networks:
+      - zbxnet
+
+  zabbix-agent:
+    image: zabbix/zabbix-agent:alpine-latest
+    container_name: zabbix-agent-1
+    environment:
+      - ZBX_SERVER_HOST=zabbix-1
+      - ZBX_HOSTNAME=zabbix-agent-1
+    networks:
+      - zbxnet
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana-1
+    ports:
+      - "3000:3000"
+    networks:
+      - zbxnet
+
+networks:
+  zbxnet:
+    driver: bridge

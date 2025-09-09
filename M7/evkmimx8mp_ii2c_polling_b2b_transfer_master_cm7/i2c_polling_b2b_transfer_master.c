@@ -11,6 +11,25 @@
 #include "fsl_i2c.h"
 #include "app.h"
 
+/* ---------gpio------ (include) */
+#include "fsl_clock.h"  /* for CLOCK_GetRootClockFreq / kCLOCK_RootI2c3 */
+/* ---------gpio------ (include) */
+
+
+/* ---------gpio------ (expander defs) */
+/* TCA6416 on I2C3 @ 0x20: we only touch Port 0 */
+#define TCA6416_ADDR   0x20
+#define TCA_REG_IN0    0x00
+#define TCA_REG_OUT0   0x02
+#define TCA_REG_CFG0   0x06
+#define TCA_BIT_I2C5_SEL (1u<<2)   /* Port0 bit2 = "CAN1/I2C5_SEL" */
+/* Set to 1 if HIGH selects I2C5 on your board; set to 0 if LOW selects I2C5 */
+#ifndef I2C5_SEL_ACTIVE_HIGH
+#define I2C5_SEL_ACTIVE_HIGH 1
+#endif
+/* ---------gpio------ (expander defs) */
+
+
 /* Your existing example defs (address 0x68; use 0x69 if AD0=1) */
 #define I2C_MASTER_SLAVE_ADDR_7BIT 0x68U
 #define I2C_BAUDRATE               100000U
@@ -20,6 +39,7 @@
 #define MPU_REG_PWR1               0x6B
 #define MPU_REG_WHOAMI             0x75
 #define MPU_REG_ACCEL_XOUT         0x3B   /* 14 bytes: AX..AZ, TEMP, GX..GZ */
+
 
 /* Example buffers (kept; harmless) */
 static uint8_t g_master_txBuff[I2C_DATA_LENGTH];
@@ -32,7 +52,7 @@ int main(void)
 
     BOARD_InitHardware();
 
-    PRINTF("\r\nTEST 1 (build %s %s)\r\n", __DATE__, __TIME__);
+    PRINTF("\r\nTEST 3 i2c5! (build %s %s)\r\n", __DATE__, __TIME__);
 
     /* Fill and print the sample buffer (kept; does not affect IMU transfers) */
     for (uint32_t i = 0; i < I2C_DATA_LENGTH; i++) g_master_txBuff[i] = (uint8_t)i;

@@ -27,5 +27,10 @@ void BOARD_InitHardware(void)
 
     CLOCK_SetRootMux(kCLOCK_RootI2c3, kCLOCK_I2cRootmuxSysPll1Div5); /* Set I2C source to SysPLL1 Div5 160MHZ */
     CLOCK_SetRootDivider(kCLOCK_RootI2c3, 1U, 10U);                  /* Set root clock to 160MHZ / 10 = 16MHZ */
+    CLOCK_SetRootMux(kCLOCK_RootI2c5, kCLOCK_I2cRootmuxSysPll1Div5); 
+    CLOCK_SetRootDivider(kCLOCK_RootI2c5, 1U, 10U);  
+    CLOCK_EnableClock(kCLOCK_I2c5);
+
+    
 }
 /*${function:end}*/

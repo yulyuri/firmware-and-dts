@@ -81,7 +81,31 @@ void BOARD_InitPins(void) {                                /*!< Function assigne
                         IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
                         IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
-}
+        /* I2C5 on SPDIF_TX (SCL) / SPDIF_RX (SDA) */
+    IOMUXC_SetPinMux(IOMUXC_SPDIF_TX_I2C5_SCL, 1U);
+    IOMUXC_SetPinConfig(IOMUXC_SPDIF_TX_I2C5_SCL,
+                        IOMUXC_SW_PAD_CTL_PAD_ODE_MASK| 
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_FSEL_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_HYS_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+    IOMUXC_SetPinMux(IOMUXC_SPDIF_RX_I2C5_SDA, 1U);
+    IOMUXC_SetPinConfig(IOMUXC_SPDIF_RX_I2C5_SDA,
+                        IOMUXC_SW_PAD_CTL_PAD_ODE_MASK|
+                        IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
+                        IOMUXC_SW_PAD_CTL_PAD_FSEL_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_HYS_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+    
+
+    /* Open-drain + fast slew + pull enabled + 100k PU + medium drive + hysteresis */
+    /* I2C5 SCL/SDA pad config copied from your DT: 0x400001C3 */
+    
+
+
+ }
 
 /***********************************************************************************************************************
  * EOF

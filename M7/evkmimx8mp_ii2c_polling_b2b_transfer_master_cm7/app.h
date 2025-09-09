@@ -11,10 +11,10 @@
  * Definitions
  ******************************************************************************/
 /*${macro:start}*/
-#define EXAMPLE_I2C_MASTER_BASEADDR I2C3
+#define EXAMPLE_I2C_MASTER_BASEADDR I2C5
 #define I2C_MASTER_CLK_FREQ                                                                 \
-    (CLOCK_GetPllFreq(kCLOCK_SystemPll1Ctrl) / (CLOCK_GetRootPreDivider(kCLOCK_RootI2c3)) / \
-     (CLOCK_GetRootPostDivider(kCLOCK_RootI2c3)) / 5) /* SYSTEM PLL1 DIV5 */
+    (CLOCK_GetPllFreq(kCLOCK_SystemPll1Ctrl) / (CLOCK_GetRootPreDivider(kCLOCK_RootI2c5)) / \
+     (CLOCK_GetRootPostDivider(kCLOCK_RootI2c5)) / 5) /* SYSTEM PLL1 DIV5 */
 /*${macro:end}*/
 
 /*******************************************************************************

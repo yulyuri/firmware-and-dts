@@ -1808,7 +1808,7 @@
 					
 
 				};
-				accelerometer@53 {
+				acc`elerometer@53 {
 					compatible = "adi,adxl345";
 					reg = <0x53>;
 					status = "okay";

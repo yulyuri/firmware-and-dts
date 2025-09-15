@@ -79,3 +79,7 @@ set_target_properties(${MCUX_SDK_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES
 # wrap all libraries with -Wl,--start-group -Wl,--end-group to prevent link order issue
 group_link_libraries()
 
+target_compile_definitions(${MCUX_SDK_PROJECT_NAME} PRIVATE PRINTF_FLOAT_ENABLE=1)
+
+
+

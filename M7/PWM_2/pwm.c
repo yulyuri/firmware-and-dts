@@ -179,7 +179,7 @@ int main(void)
     /* Board pin, clock, debug console init */
     BOARD_InitHardware();
 
-    PRINTF("\r\nPWM LED fade test 5 ! :)\r\n");
+    PRINTF("\r\nPWM LED fade test 69 ! :)\r\n");
 
     /* Load default config, then override what we need */
     PWM_GetDefaultConfig(&pwmConfig);

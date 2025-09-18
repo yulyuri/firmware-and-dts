@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ii2c_polling_b2b_transfer_master_cm7",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ii2c_polling_b2b_transfer_master_cm7.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ii2c_polling_b2b_transfer_master_cm7.elf-debug-d8588edaa42f2da12eb8.json",
+					"name" : "ii2c_polling_b2b_transfer_master_cm7.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/armgcc/debug",
+		"source" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

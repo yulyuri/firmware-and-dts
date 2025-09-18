@@ -1,0 +1,3 @@
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_hello_world_cm7/armgcc/debug/CMakeFiles/hello_world_cm7.elf.dir
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_hello_world_cm7/armgcc/debug/CMakeFiles/edit_cache.dir
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_hello_world_cm7/armgcc/debug/CMakeFiles/rebuild_cache.dir

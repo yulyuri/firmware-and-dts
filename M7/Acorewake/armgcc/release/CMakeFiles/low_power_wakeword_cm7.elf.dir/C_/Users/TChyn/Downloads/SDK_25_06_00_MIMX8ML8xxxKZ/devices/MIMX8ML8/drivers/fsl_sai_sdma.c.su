@@ -1,0 +1,12 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:116:13:SAI_RxSDMACallback	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:89:13:SAI_TxSDMACallback	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:154:6:SAI_TransferTxCreateHandleSDMA	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:199:6:SAI_TransferRxCreateHandleSDMA	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:238:6:SAI_TransferTxSetConfigSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:284:6:SAI_TransferRxSetConfigSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:337:10:SAI_TransferSendSDMA	112	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:437:10:SAI_TransferReceiveSDMA	112	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:531:6:SAI_TransferAbortSendSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:565:6:SAI_TransferTerminateSendSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:590:6:SAI_TransferAbortReceiveSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai_sdma.c:624:6:SAI_TransferTerminateReceiveSDMA	16	static

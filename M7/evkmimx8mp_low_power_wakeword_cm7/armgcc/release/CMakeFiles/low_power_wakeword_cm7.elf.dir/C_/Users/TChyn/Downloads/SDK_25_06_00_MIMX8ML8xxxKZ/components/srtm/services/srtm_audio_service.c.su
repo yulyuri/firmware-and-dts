@@ -1,0 +1,13 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:114:13:SRTM_AudioService_RecycleMessage	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:222:22:SRTM_AudioService_Request	64	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:683:27:SRTM_AudioService_CreateIface	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:126:13:SRTM_AudioService_HandlePeriodDone.isra	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:161:13:SRTM_AudioService_HandleTxPeriodDone	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:167:13:SRTM_AudioService_HandleRxPeriodDone	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:174:22:SRTM_AudioService_PeriodDone	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:623:22:SRTM_AudioService_Notify	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:827:6:SRTM_AudioService_Destroy	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:800:16:SRTM_AudioService_Create	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:851:6:SRTM_AudioService_Reset	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:876:15:SRTM_AudioService_BindChannel	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_audio_service.c:898:15:SRTM_AudioService_AddAudioInterface	16	static

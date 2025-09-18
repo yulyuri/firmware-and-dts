@@ -1,0 +1,3 @@
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/board.c:24:6:BOARD_InitDebugConsole	8	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/board.c:32:6:BOARD_InitMemory	20	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/board.c:157:6:BOARD_RdcInit	16	static

@@ -1,0 +1,3 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_common_arm.c:126:6:MSDK_EnableCpuCycleCounter	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_common_arm.c:144:10:MSDK_GetCpuCycleCount	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_common_arm.c:210:6:SDK_DelayAtLeastUs	8	static

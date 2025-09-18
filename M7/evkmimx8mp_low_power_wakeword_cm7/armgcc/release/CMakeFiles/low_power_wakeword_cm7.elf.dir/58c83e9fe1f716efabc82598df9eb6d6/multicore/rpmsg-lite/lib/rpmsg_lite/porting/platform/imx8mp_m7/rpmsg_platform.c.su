@@ -1,0 +1,17 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:37:9:platform_init_interrupt	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:57:9:platform_deinit_interrupt	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:77:6:platform_notify	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:90:9:MU1_M7_IRQHandler	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:118:6:platform_time_delay	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:144:9:platform_in_isr	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:159:9:platform_interrupt_enable	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:184:9:platform_interrupt_disable	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:206:6:platform_map_mem_region	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:216:6:platform_cache_all_flush_invalidate	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:226:6:platform_cache_disable	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:236:6:platform_cache_flush	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:246:6:platform_cache_invalidate	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:256:11:platform_vatopa	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:267:7:platform_patova	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:277:9:platform_init	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c:305:9:platform_deinit	8	static

@@ -1,0 +1,3 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ (1)/devices/MIMX8ML8/drivers/fsl_clock.h:1341:20:CLOCK_SetRootMux	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_2/clock_config.c:15:6:BOARD_InitBootClocks	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_2/clock_config.c:82:6:BOARD_BootClockRUN	8	static

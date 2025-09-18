@@ -1,0 +1,11 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:58:10:RDC_GetInstance	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:83:6:RDC_Init	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:97:6:RDC_Deinit	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:113:6:RDC_GetHardwareConfig	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:130:6:RDC_SetMasterDomainAssignment	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:152:6:RDC_GetDefaultMasterDomainAssignment	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:168:6:RDC_SetPeriphAccessConfig	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:205:6:RDC_GetDefaultPeriphAccessConfig	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:228:6:RDC_SetMemAccessConfig	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:269:6:RDC_GetDefaultMemAccessConfig	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c:295:6:RDC_GetMemViolationStatus	48	static

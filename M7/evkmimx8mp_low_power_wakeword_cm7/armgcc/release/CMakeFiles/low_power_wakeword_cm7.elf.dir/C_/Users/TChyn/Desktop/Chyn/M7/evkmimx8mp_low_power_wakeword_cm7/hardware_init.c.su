@@ -1,0 +1,4 @@
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/hardware_init.c:85:13:i2c_release_bus_delay	0	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/hardware_init.c:21:6:BOARD_PeripheralRdcSetting	24	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/hardware_init.c:94:6:BOARD_I2C_ReleaseBus	16	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/hardware_init.c:52:6:BOARD_InitHardware	8	static

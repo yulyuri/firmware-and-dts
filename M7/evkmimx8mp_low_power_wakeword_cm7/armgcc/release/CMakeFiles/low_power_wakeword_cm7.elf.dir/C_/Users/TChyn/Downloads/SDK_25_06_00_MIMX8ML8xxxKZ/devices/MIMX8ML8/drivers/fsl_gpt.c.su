@@ -1,0 +1,3 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_gpt.c:58:6:GPT_Init	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_gpt.c:93:6:GPT_Deinit	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_gpt.c:120:6:GPT_GetDefaultConfig	8	static

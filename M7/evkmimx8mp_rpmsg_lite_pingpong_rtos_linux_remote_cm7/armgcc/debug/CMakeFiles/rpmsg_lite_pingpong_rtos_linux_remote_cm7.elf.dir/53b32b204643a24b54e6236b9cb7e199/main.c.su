@@ -1,0 +1,5 @@
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_pingpong_rtos_linux_remote_cm7/main.c:55:6:app_destroy_task	8	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_pingpong_rtos_linux_remote_cm7/main.c:82:13:app_nameservice_isr_cb	24	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_pingpong_rtos_linux_remote_cm7/main.c:86:13:app_task	40	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_pingpong_rtos_linux_remote_cm7/main.c:216:6:app_create_task	16	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_pingpong_rtos_linux_remote_cm7/main.c:230:5:main	8	static

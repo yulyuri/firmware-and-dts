@@ -1,0 +1,10 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:74:10:HAL_CODEC_WM8962_Init	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:95:10:HAL_CODEC_WM8962_Deinit	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:111:10:HAL_CODEC_WM8962_SetFormat	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:127:10:HAL_CODEC_WM8962_SetVolume	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:183:10:HAL_CODEC_WM8962_SetMute	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:213:10:HAL_CODEC_WM8962_SetPower	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:232:10:HAL_CODEC_WM8962_SetRecordChannel	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:245:10:HAL_CODEC_WM8962_SetRecord	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:258:10:HAL_CODEC_WM8962_SetPlay	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/port/wm8962/fsl_codec_wm8962_adapter.c:273:10:HAL_CODEC_WM8962_ModuleControl	0	static

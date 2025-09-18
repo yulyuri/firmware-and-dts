@@ -1,0 +1,5 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_codec_adapter.c:110:22:SRTM_I2CCodecAdapter_GetReg	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_codec_adapter.c:90:22:SRTM_I2CCodecAdapter_SetReg	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_codec_adapter.c:39:22:SRTM_I2CCodecAdapter_SetParam	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_codec_adapter.c:132:22:SRTM_I2CCodecAdapter_Create	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_codec_adapter.c:156:6:SRTM_I2CCodecAdapter_Destroy	0	static

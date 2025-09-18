@@ -1,0 +1,4 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_channel.c:28:6:SRTM_Channel_Destroy	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_channel.c:36:15:SRTM_Channel_Start	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_channel.c:44:15:SRTM_Channel_Stop	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_channel.c:52:15:SRTM_Channel_SendData	0	static

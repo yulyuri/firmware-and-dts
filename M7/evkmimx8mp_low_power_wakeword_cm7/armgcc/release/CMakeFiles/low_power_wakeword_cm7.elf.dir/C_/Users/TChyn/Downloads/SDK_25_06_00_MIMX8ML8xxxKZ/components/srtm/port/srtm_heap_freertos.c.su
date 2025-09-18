@@ -1,0 +1,2 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_heap_freertos.c:31:7:SRTM_Heap_Malloc	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_heap_freertos.c:47:6:SRTM_Heap_Free	0	static

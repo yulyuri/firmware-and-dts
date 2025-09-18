@@ -1,0 +1,4 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_audiomix.c:34:6:AUDIOMIX_AttachClk	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_audiomix.c:53:6:AUDIOMIX_InitAudioPll	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_audiomix.c:84:6:AUDIOMIX_DeinitAudioPll1	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_audiomix.c:94:10:AUDIOMIX_GetAudioPllFreq	104	static

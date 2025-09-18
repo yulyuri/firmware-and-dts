@@ -1,0 +1,4 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_sem_freertos.c:35:12:SRTM_Sem_Create	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_sem_freertos.c:41:6:SRTM_Sem_Destroy	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_sem_freertos.c:48:15:SRTM_Sem_Post	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_sem_freertos.c:71:15:SRTM_Sem_Wait	8	static

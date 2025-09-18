@@ -1,0 +1,15 @@
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:38:6:vPortSetupTimerInterrupt	24	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:55:10:LPM_EnterTicklessIdle	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:94:6:LPM_ExitTicklessIdle	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:124:6:GPT1_IRQHandler	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:143:6:LPM_IncreseBlockSleepCnt	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:144:6:LPM_DecreaseBlockSleepCnt	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:146:6:LPM_AllowSleep	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:151:6:LPM_MCORE_ChangeMCoreClock	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:174:6:LPM_MCORE_SetPowerStatus	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:200:6:PreSleepProcessing	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:206:6:PostSleepProcessing	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:213:6:ShowMCoreStatus	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:226:6:UpdateTargetPowerStatus	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:246:6:vPortSuppressTicksAndSleep	24	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/lpm.c:289:6:LPM_Init	8	static

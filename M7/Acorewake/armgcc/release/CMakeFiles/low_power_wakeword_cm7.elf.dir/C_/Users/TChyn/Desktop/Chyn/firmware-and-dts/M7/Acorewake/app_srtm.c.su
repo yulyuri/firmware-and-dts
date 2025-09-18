@@ -1,0 +1,16 @@
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:479:22:APP_SRTM_I2C_SwitchChannel	40	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:438:13:SRTM_DispatcherTask	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:292:13:APP_SRTM_ConfAudioMclk	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:197:13:APP_LinkupTimerCallback	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:269:13:APP_SRTM_InitAudioDevice	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:180:13:APP_SRTM_PollLinkup	24	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:215:13:APP_SRTM_Linkup	32	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:410:13:SRTM_MonitorTask	32	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:552:22:APP_SRTM_I2C_Read	40	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:531:22:APP_SRTM_I2C_Write	40	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:160:17:APP_SRTM_ConfPdmDevice	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:140:17:APP_SRTM_ConfAudioDevice	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:124:6:APP_SRTM_ServiceIdle	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:443:6:APP_SRTM_Init	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:469:6:APP_SRTM_Suspend	0	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/app_srtm.c:474:6:APP_SRTM_Resume	0	static

@@ -1,0 +1,10 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/m-profile/armv7m_mpu.h:189:22:ARM_MPU_Enable	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/m-profile/armv7m_mpu.h:202:22:ARM_MPU_Disable	4	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_clock.h:1421:24:CLOCK_GetRootPreDivider	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_clock.h:1434:24:CLOCK_GetRootPostDivider	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_clock.h:1450:20:CLOCK_ControlGate	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.h:308:23:RDC_GetPeriphAccessPolicy	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.h:435:23:RDC_GetCurrentMasterDomainId	16	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_str_echo_rtos_remote_cm7/board.c:24:6:BOARD_InitDebugConsole	24	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_str_echo_rtos_remote_cm7/board.c:32:6:BOARD_InitMemory	72	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_rpmsg_lite_str_echo_rtos_remote_cm7/board.c:157:6:BOARD_RdcInit	16	static

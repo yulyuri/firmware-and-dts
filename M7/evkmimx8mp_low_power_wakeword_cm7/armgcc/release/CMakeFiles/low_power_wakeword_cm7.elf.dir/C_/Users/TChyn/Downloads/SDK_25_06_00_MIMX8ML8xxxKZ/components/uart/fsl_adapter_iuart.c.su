@@ -1,0 +1,6 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c:217:19:HAL_UartInit	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c:283:19:HAL_UartDeinit	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c:304:19:HAL_UartReceiveBlocking	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c:326:19:HAL_UartSendBlocking	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c:347:19:HAL_UartEnterLowpower	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c:354:19:HAL_UartExitLowpower	0	static

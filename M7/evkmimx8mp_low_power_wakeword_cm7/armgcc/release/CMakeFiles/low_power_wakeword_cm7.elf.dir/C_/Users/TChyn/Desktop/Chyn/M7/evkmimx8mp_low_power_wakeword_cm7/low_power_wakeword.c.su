@@ -1,0 +1,5 @@
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/low_power_wakeword.c:27:13:busy_delay_us	8	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/low_power_wakeword.c:51:13:MU_Fire_GIR	8	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/low_power_wakeword.c:58:13:MainTask	16	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/low_power_wakeword.c:107:5:main	16	static
+C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_low_power_wakeword_cm7/low_power_wakeword.c:126:6:vApplicationMallocFailedHook	8	static

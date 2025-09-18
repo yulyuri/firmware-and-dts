@@ -1,0 +1,4 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_mutex_freertos.c:34:14:SRTM_Mutex_Create	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_mutex_freertos.c:40:6:SRTM_Mutex_Destroy	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_mutex_freertos.c:47:15:SRTM_Mutex_Lock	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/port/srtm_mutex_freertos.c:59:15:SRTM_Mutex_Unlock	8	static

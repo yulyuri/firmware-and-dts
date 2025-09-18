@@ -1,0 +1,9 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:145:28:xEventGroupCreate	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:312:17:xEventGroupWaitBits	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:472:17:xEventGroupClearBits	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:524:17:xEventGroupGetBitsFromISR	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:547:17:xEventGroupSetBits	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:185:17:xEventGroupSync	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:647:10:vEventGroupDelete	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:745:10:vEventGroupSetBitsCallback	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c:761:10:vEventGroupClearBitsCallback	0	static

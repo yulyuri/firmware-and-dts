@@ -1,0 +1,12 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:44:18:SRTM_I2C_SearchBus	20	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:61:22:SRTM_I2CService_ReadBus	56	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:100:22:SRTM_I2CService_WriteBus	56	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:259:13:SRTM_I2C_HandleBusRead	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:269:13:SRTM_I2C_HandleBusWrite	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:251:22:SRTM_I2CService_Notify	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:181:22:SRTM_I2CService_Request	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:160:6:SRTM_I2CService_Destroy	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:139:16:SRTM_I2CService_Create	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:174:6:SRTM_I2CService_Reset	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:279:15:SRTM_I2C_RequestBusRead	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/services/srtm_i2c_service.c:315:15:SRTM_I2C_RequestBusWrite	40	static

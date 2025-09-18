@@ -1,0 +1,4 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_service.c:29:6:SRTM_Service_Destroy	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_service.c:36:15:SRTM_Service_Request	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_service.c:44:15:SRTM_Service_Notify	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_service.c:52:15:SRTM_Service_CheckVersion	8	static

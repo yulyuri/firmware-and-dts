@@ -1,0 +1,10 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_bilinear_interp_f32.c:101:13:arm_bilinear_interp_f32	12	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_bilinear_interp_q15.c:47:9:arm_bilinear_interp_q15	20	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_bilinear_interp_q31.c:48:9:arm_bilinear_interp_q31	20	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_bilinear_interp_q7.c:48:8:arm_bilinear_interp_q7	20	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_linear_interp_f32.c:79:13:arm_linear_interp_f32	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_linear_interp_q15.c:53:9:arm_linear_interp_q15	12	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_linear_interp_q31.c:54:9:arm_linear_interp_q31	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_linear_interp_q7.c:53:8:arm_linear_interp_q7	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_spline_interp_f32.c:146:24:arm_spline_f32	48	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/DSP/Source/InterpolationFunctions/arm_spline_interp_init_f32.c:65:24:arm_spline_init_f32	48	static

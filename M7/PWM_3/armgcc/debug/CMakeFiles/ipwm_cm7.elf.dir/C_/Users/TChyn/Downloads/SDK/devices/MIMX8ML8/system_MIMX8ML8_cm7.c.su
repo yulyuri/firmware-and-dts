@@ -1,0 +1,5 @@
+c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/system_MIMX8ML8_cm7.c:75:10:GetFracPllFreq	120	static
+c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/system_MIMX8ML8_cm7.c:108:10:GetIntegerPllFreq	104	static
+c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/system_MIMX8ML8_cm7.c:159:6:SystemInit	8	static
+c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/system_MIMX8ML8_cm7.c:173:6:SystemCoreClockUpdate	24	static
+c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/system_MIMX8ML8_cm7.c:221:29:SystemInitHook	4	static

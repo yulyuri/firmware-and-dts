@@ -1,0 +1,7 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:89:22:SRTM_RPMsgEndpoint_Start	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:103:22:SRTM_RPMsgEndpoint_Stop	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:49:16:SRTM_RPMsgEndpoint_RxHandler	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:226:6:SRTM_RPMsgEndpoint_Destroy	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:133:22:SRTM_RPMsgEndpoint_SendData	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:175:16:SRTM_RPMsgEndpoint_Create	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/channels/srtm_rpmsg_endpoint.c:241:15:SRTM_RPMsgEndpoint_OverrideRxHandler	0	static

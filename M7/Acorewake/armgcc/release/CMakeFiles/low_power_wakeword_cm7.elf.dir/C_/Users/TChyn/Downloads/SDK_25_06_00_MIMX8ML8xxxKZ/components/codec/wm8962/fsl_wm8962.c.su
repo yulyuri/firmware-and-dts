@@ -1,0 +1,13 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:876:10:WM8962_WriteReg	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:482:10:WM8962_SetDataRoute	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:545:10:WM8962_SetModuleVolume	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:883:10:WM8962_ReadReg	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:49:17:WM8962_StartSequence	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:391:10:WM8962_Deinit	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:634:10:WM8962_GetModuleVolume	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:659:10:WM8962_SetModuleMute	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:896:10:WM8962_ModifyReg	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:401:10:WM8962_SetProtocol	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:423:10:WM8962_SetModulePower	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:742:10:WM8962_ConfigDataFormat	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/codec/wm8962/fsl_wm8962.c:303:10:WM8962_Init	48	static

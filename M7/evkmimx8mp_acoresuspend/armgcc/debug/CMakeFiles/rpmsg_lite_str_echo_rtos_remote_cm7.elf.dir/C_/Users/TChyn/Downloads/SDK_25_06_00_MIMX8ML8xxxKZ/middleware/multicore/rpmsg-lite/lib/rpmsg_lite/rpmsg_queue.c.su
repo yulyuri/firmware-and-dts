@@ -1,0 +1,8 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include/rpmsg_default_config.h:190:20:RL_HANG	4	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:36:9:rpmsg_queue_rx_cb	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:61:20:rpmsg_queue_create	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:92:9:rpmsg_queue_destroy	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:107:9:rpmsg_queue_recv	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:161:9:rpmsg_queue_recv_nocopy	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:203:9:rpmsg_queue_nocopy_free	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c:218:9:rpmsg_queue_get_current_size	16	static

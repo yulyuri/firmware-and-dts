@@ -1,0 +1,6 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm_sdma.c:80:6:PDM_TransferCreateHandleSDMA	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm_sdma.c:122:6:PDM_SetChannelConfigSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm_sdma.c:158:10:PDM_TransferReceiveSDMA	112	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm_sdma.c:234:6:PDM_TransferAbortReceiveSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm_sdma.c:46:13:PDM_SDMACallback	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm_sdma.c:254:6:PDM_TransferTerminateReceiveSDMA	8	static

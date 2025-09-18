@@ -1,0 +1,25 @@
+# ninja log v7
+2420	13941	7798800360207406	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj	ef19b52832ace589
+1309	15039	7798800349099379	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_3/empty_rsc_table.c.obj	de54f0a6c3f3bad
+1863	22964	7798800354642707	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_3/pin_mux.c.obj	81858ccb4fb21a0b
+1523	23537	7798800351244554	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_3/clock_config.c.obj	f957dce8d4d5057f
+916	25337	7798800345294414	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_3/pwm.c.obj	27a20f30960529b7
+2750	25714	7798800363496756	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj	60fb554538966a28
+2000	25856	7798800356012683	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_3/hardware_init.c.obj	d2f9d5b97b0a9774
+1415	26527	7798800350153187	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_3/board.c.obj	e443575c6d52191e
+2146	28137	7798800357456866	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/components/uart/fsl_adapter_iuart.c.obj	d0fab517aff25dcc
+2926	29141	7798800365263631	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj	8d86e3f5ad0d4128
+3981	32331	7798800375810726	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj	46814e7313034a79
+3095	34071	7798800366950478	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_clock.c.obj	af4653f8fbd454c
+3551	35090	7798800371509101	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_common.c.obj	efe08f3c9cf08164
+4749	39099	7798800383488910	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_gpio.c.obj	92b75ae3a8cf9b03
+25715	40448	7798800593164829	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj	dbc2dbe0bac7b3e1
+13978	41167	7798800475895516	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_pwm.c.obj	e43614e9480cb6ac
+23538	41593	7798800571393447	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj	f08f8314ed9d934f
+25374	41771	7798800590104395	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj	839d9d3e6b88e7d7
+15075	42646	7798800486752113	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_uart.c.obj	8461fc69ebe76532
+22977	43840	7798800565800832	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_rdc.c.obj	d77f306b0a75e270
+25857	45809	7798800594587274	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	7dad69b356de9dc2
+26529	46359	7798800601304060	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	f8cad28e416cdbd8
+28137	47099	7798800617376530	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	9d9d1295e91a2975
+47100	52907	7798800807187684	ipwm_cm7.elf	770243579a2568da

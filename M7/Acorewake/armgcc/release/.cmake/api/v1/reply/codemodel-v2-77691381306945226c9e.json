@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "low_power_wakeword_cm7",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "low_power_wakeword_cm7.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-low_power_wakeword_cm7.elf-release-3b1d41073ed1316a9913.json",
+					"name" : "low_power_wakeword_cm7.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/armgcc/release",
+		"source" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewake/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

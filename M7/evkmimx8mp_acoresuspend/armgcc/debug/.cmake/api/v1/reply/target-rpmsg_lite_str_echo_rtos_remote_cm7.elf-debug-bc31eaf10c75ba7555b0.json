@@ -1,0 +1,1447 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "rpmsg_lite_str_echo_rtos_remote_cm7.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"include",
+			"project",
+			"target_link_libraries",
+			"group_link_libraries",
+			"target_include_directories",
+			"include_if_use",
+			"target_sources",
+			"add_config_file"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/tools/cmake_toolchain_files/armgcc.cmake",
+			"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake",
+			"C:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/tools/cmake_toolchain_files/mcux_config.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/CMSIS_Include_core_cm.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/all_lib_device.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/component_iuart_adapter.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/device_CMSIS.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_audiomix.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/middleware_freertos-kernel.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/middleware_multicore_rpmsg-lite.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/middleware_multicore_rpmsg-lite_freertos.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/middleware_multicore_rpmsg-lite_imx8mp_m7.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite/utility_assert_lite.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/utility_debug_console_lite.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/utility_str.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/device_startup.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/device_system.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_clock.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_common.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_igpio.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_ii2c.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_iuart.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_mu.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_pdm.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_rdc.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_sai.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/driver_sdma.MIMX8ML8.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/middleware_freertos-kernel_heap_4.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/middleware_multicore_rpmsg-lite_ns.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/middleware_multicore_rpmsg-lite_queue.cmake",
+			"c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/utilities_misc_utilities.MIMX8ML8.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 146,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 159,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 161,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 163,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 778,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 14
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 796,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 11,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 849,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 22
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 6,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 855,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 26
+			},
+			{
+				"file" : 8,
+				"parent" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 917,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 30
+			},
+			{
+				"file" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 56,
+				"parent" : 32
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 961,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 35
+			},
+			{
+				"file" : 10,
+				"parent" : 36
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 13,
+				"parent" : 37
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 963,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 39
+			},
+			{
+				"file" : 11,
+				"parent" : 40
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 11,
+				"parent" : 41
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 964,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 43
+			},
+			{
+				"file" : 12,
+				"parent" : 44
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 11,
+				"parent" : 45
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 976,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 47
+			},
+			{
+				"file" : 13,
+				"parent" : 48
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 11,
+				"parent" : 49
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 978,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 51
+			},
+			{
+				"file" : 14,
+				"parent" : 52
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 11,
+				"parent" : 53
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 981,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 55
+			},
+			{
+				"file" : 15,
+				"parent" : 56
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 11,
+				"parent" : 57
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 6,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 852,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 60
+			},
+			{
+				"file" : 16,
+				"parent" : 61
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 11,
+				"parent" : 62
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 134,
+				"parent" : 63
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 853,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 65
+			},
+			{
+				"file" : 17,
+				"parent" : 66
+			},
+			{
+				"command" : 8,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 67
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 6,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 857,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 70
+			},
+			{
+				"file" : 18,
+				"parent" : 71
+			},
+			{
+				"command" : 8,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 72
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 863,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 74
+			},
+			{
+				"file" : 19,
+				"parent" : 75
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 6,
+				"parent" : 76
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 11,
+				"parent" : 76
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 877,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 79
+			},
+			{
+				"file" : 20,
+				"parent" : 80
+			},
+			{
+				"command" : 8,
+				"file" : 20,
+				"line" : 6,
+				"parent" : 81
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 878,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 83
+			},
+			{
+				"file" : 21,
+				"parent" : 84
+			},
+			{
+				"command" : 8,
+				"file" : 21,
+				"line" : 6,
+				"parent" : 85
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 882,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 87
+			},
+			{
+				"file" : 22,
+				"parent" : 88
+			},
+			{
+				"command" : 8,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 89
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 886,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 91
+			},
+			{
+				"file" : 23,
+				"parent" : 92
+			},
+			{
+				"command" : 8,
+				"file" : 23,
+				"line" : 6,
+				"parent" : 93
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 889,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 95
+			},
+			{
+				"file" : 24,
+				"parent" : 96
+			},
+			{
+				"command" : 8,
+				"file" : 24,
+				"line" : 6,
+				"parent" : 97
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 891,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 99
+			},
+			{
+				"file" : 25,
+				"parent" : 100
+			},
+			{
+				"command" : 8,
+				"file" : 25,
+				"line" : 6,
+				"parent" : 101
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 893,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 103
+			},
+			{
+				"file" : 26,
+				"parent" : 104
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 6,
+				"parent" : 105
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 895,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 107
+			},
+			{
+				"file" : 27,
+				"parent" : 108
+			},
+			{
+				"command" : 8,
+				"file" : 27,
+				"line" : 6,
+				"parent" : 109
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 6,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 25,
+				"parent" : 32
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 923,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 113
+			},
+			{
+				"file" : 28,
+				"parent" : 114
+			},
+			{
+				"command" : 8,
+				"file" : 28,
+				"line" : 6,
+				"parent" : 115
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 6,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 6,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 12,
+				"line" : 6,
+				"parent" : 45
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 965,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 120
+			},
+			{
+				"file" : 29,
+				"parent" : 121
+			},
+			{
+				"command" : 8,
+				"file" : 29,
+				"line" : 6,
+				"parent" : 122
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 967,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 124
+			},
+			{
+				"file" : 30,
+				"parent" : 125
+			},
+			{
+				"command" : 8,
+				"file" : 30,
+				"line" : 6,
+				"parent" : 126
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 974,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 128
+			},
+			{
+				"file" : 31,
+				"parent" : 129
+			},
+			{
+				"command" : 8,
+				"file" : 31,
+				"line" : 7,
+				"parent" : 130
+			},
+			{
+				"command" : 8,
+				"file" : 31,
+				"line" : 14,
+				"parent" : 130
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 6,
+				"parent" : 49
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 6,
+				"parent" : 53
+			},
+			{
+				"command" : 8,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 57
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -D__USE_SHMEM     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -DSDK_OS_FREE_RTOS     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16     -DSDK_DEBUGCONSOLE=1 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/armgcc/.."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/m-profile"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/periph"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/."
+				},
+				{
+					"backtrace" : 33,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 46,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include/platform/imx8mp_m7"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite/."
+				},
+				{
+					"backtrace" : 54,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/str"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				9,
+				11,
+				12,
+				14,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				51,
+				52,
+				53
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -g -g     -D__STARTUP_INITIALIZE_NONCACHEDATA     -D__STARTUP_CLEAR_BSS     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -mthumb     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/armgcc/.."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/CMSIS/Core/Include/m-profile"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/periph"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/."
+				},
+				{
+					"backtrace" : 33,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include/environment/freertos"
+				},
+				{
+					"backtrace" : 46,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/include/platform/imx8mp_m7"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite/."
+				},
+				{
+					"backtrace" : 54,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/str"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				18,
+				50
+			]
+		}
+	],
+	"id" : "rpmsg_lite_str_echo_rtos_remote_cm7.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -D__USE_SHMEM     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -DSDK_OS_FREE_RTOS     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16     -DSDK_DEBUGCONSOLE=1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-g     -Xlinker     --defsym=__stack_size__=0x400     -Xlinker     --defsym=__use_shmem__=1     -Xlinker     --defsym=__multicore__=1     -Xlinker     -Map=output.map     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -Wl,--gc-sections     -Wl,-static     -Wl,--print-memory-usage     -mcpu=cortex-m7     -Xlinker     --defsym=__stack_size__=0x400     -Xlinker     --defsym=__heap_size__=0x400     -mfloat-abi=hard -mfpu=fpv5-d16     --specs=nano.specs --specs=nosys.specs     -T\"C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/armgcc/MIMX8ML8xxxLZ_ram.ld\" -static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--no-warn-rwx-segments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-lgcc -lc -lm -lcr_newlib_nohost",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-Wl,--end-group",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "rpmsg_lite_str_echo_rtos_remote_cm7.elf",
+	"nameOnDisk" : "rpmsg_lite_str_echo_rtos_remote_cm7.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				6,
+				8,
+				10,
+				13,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				9,
+				11,
+				12,
+				14,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				51,
+				52,
+				53
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				18,
+				50
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/remoteproc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/FreeRTOSConfigBoard.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/FreeRTOSConfig.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/rpmsg_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/srtm_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/rsc_table.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/rsc_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/board.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/board.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/clock_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/clock_config.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/pin_mux.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/pin_mux.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/hardware_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/app.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/TChyn/Desktop/Chyn/M7/evkmimx8mp_acoresuspend/mcux_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/uart/fsl_adapter_iuart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 1,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/system_MIMX8ML8_cm7.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_audiomix.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_clock.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_common.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_common_arm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_gpio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_i2c.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_uart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_mu.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_pdm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_rdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sai.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/drivers/fsl_sdma.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/croutine.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/event_groups.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/stream_buffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/tasks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 111,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/timers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/rtos/freertos/freertos-kernel/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/common/llist.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_lite.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/virtio/virtqueue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/environment/rpmsg_env_freertos.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/porting/platform/imx8mp_m7/rpmsg_platform.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 123,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_ns.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 127,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/middleware/multicore/rpmsg-lite/lib/rpmsg_lite/rpmsg_queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 131,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/fsl_syscall_stub.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 131,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/fsl_sbrk.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 132,
+			"compileGroupIndex" : 1,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/fsl_memcpy.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 133,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 134,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 135,
+			"compileGroupIndex" : 0,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/devices/MIMX8ML8/utilities/str/fsl_str.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

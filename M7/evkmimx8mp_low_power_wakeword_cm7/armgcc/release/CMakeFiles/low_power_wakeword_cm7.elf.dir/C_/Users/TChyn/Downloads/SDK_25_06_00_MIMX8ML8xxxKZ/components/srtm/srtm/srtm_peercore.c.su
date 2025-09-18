@@ -1,0 +1,11 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:33:17:SRTM_PeerCore_Create	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:60:6:SRTM_PeerCore_Destroy	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:86:10:SRTM_PeerCore_GetID	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:93:15:SRTM_PeerCore_Start	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:119:15:SRTM_PeerCore_Stop	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:145:15:SRTM_PeerCore_Activate	8	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:169:15:SRTM_PeerCore_Deactivate	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:186:15:SRTM_PeerCore_AddChannel	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:207:15:SRTM_PeerCore_RemoveChannel	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:228:23:SRTM_PeerCore_GetState	0	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ/components/srtm/srtm/srtm_peercore.c:235:15:SRTM_PeerCore_SetState	0	static

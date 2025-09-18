@@ -1,5 +1,0 @@
-c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_gpio.h:242:20:GPIO_SetPinInterruptConfig	24	static
-c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_gpio.c:47:17:GPIO_GetInstance	24	static
-c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_gpio.c:75:6:GPIO_PinInit	32	static
-c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_gpio.c:115:6:GPIO_PinWrite	24	static
-c:/Users/TChyn/Downloads/SDK/devices/MIMX8ML8/drivers/fsl_gpio.c:144:6:GPIO_PinSetInterruptConfig	32	static

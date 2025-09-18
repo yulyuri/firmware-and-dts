@@ -1,4 +1,0 @@
-c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ (1)/devices/MIMX8ML8/drivers/fsl_pwm.c:46:17:PWM_GetInstance	24	static
-c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ (1)/devices/MIMX8ML8/drivers/fsl_pwm.c:75:10:PWM_Init	16	static
-c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ (1)/devices/MIMX8ML8/drivers/fsl_pwm.c:100:6:PWM_Deinit	16	static
-c:/Users/TChyn/Downloads/SDK_25_06_00_MIMX8ML8xxxKZ (1)/devices/MIMX8ML8/drivers/fsl_pwm.c:130:6:PWM_GetDefaultConfig	16	static

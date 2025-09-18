@@ -879,7 +879,7 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x00000400                resource_table
                 0x00000410                        . = ALIGN (0x8)
 
-.text           0x00000410     0x42d0
+.text           0x00000410     0x42d4
                 0x00000410                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000410       0x7c C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
@@ -1450,192 +1450,191 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x00003b70                _exit
  *(.rodata)
  *fill*         0x00003b72        0x2 
- .rodata        0x00003b74       0x26 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/pwm.c.obj
- *fill*         0x00003b9a        0x2 
- .rodata        0x00003b9c      0x113 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/board.c.obj
- *fill*         0x00003caf        0x1 
- .rodata        0x00003cb0       0xf3 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x00003da3        0x1 
- .rodata        0x00003da4       0x6a CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- *fill*         0x00003e0e        0x2 
- .rodata        0x00003e10      0x186 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00003f96        0x2 
- .rodata        0x00003f98       0x7b CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
- *fill*         0x00004013        0x1 
- .rodata        0x00004014      0x296 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x000042aa        0x2 
- .rodata        0x000042ac      0x13e CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- *fill*         0x000043ea        0x2 
- .rodata        0x000043ec       0x3e CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .rodata        0x00003b74       0x2c CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/pwm.c.obj
+ .rodata        0x00003ba0      0x113 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/board.c.obj
+ *fill*         0x00003cb3        0x1 
+ .rodata        0x00003cb4       0xf3 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x00003da7        0x1 
+ .rodata        0x00003da8       0x6a CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x00003e12        0x2 
+ .rodata        0x00003e14      0x186 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x00003f9a        0x2 
+ .rodata        0x00003f9c       0x7b CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
+ *fill*         0x00004017        0x1 
+ .rodata        0x00004018      0x296 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x000042ae        0x2 
+ .rodata        0x000042b0      0x13e CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ *fill*         0x000043ee        0x2 
+ .rodata        0x000043f0       0x3e CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
  *(.rodata*)
- *fill*         0x0000442a        0x2 
+ *fill*         0x0000442e        0x2 
  .rodata.__func__.1
-                0x0000442c       0x11 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/board.c.obj
- *fill*         0x0000443d        0x3 
+                0x00004430       0x11 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/board.c.obj
+ *fill*         0x00004441        0x3 
  .rodata.__func__.0
-                0x00004440       0x1a CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/board.c.obj
- *fill*         0x0000445a        0x2 
+                0x00004444       0x1a CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/board.c.obj
+ *fill*         0x0000445e        0x2 
  .rodata.g_audioPll1Config
-                0x0000445c       0x10 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/clock_config.c.obj
-                0x0000445c                g_audioPll1Config
+                0x00004460       0x10 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/clock_config.c.obj
+                0x00004460                g_audioPll1Config
  .rodata.g_audioPll2Config
-                0x0000446c       0x10 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/clock_config.c.obj
-                0x0000446c                g_audioPll2Config
+                0x00004470       0x10 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/clock_config.c.obj
+                0x00004470                g_audioPll2Config
  .rodata.g_saiPLLConfig
-                0x0000447c       0x10 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/clock_config.c.obj
-                0x0000447c                g_saiPLLConfig
+                0x00004480       0x10 CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/clock_config.c.obj
+                0x00004480                g_saiPLLConfig
  .rodata.s_UartAdapterBase
-                0x0000448c       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x00004490       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .rodata.__func__.5
-                0x000044a0        0xd CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x000044ad        0x3 
+                0x000044a4        0xd CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x000044b1        0x3 
  .rodata.__func__.3
-                0x000044b0       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x000044b4       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .rodata.__func__.2
-                0x000044c8       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x000044dd        0x3 
+                0x000044cc       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x000044e1        0x3 
  .rodata.__func__.0
-                0x000044e0       0x16 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- *fill*         0x000044f6        0x2 
+                0x000044e4       0x16 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x000044fa        0x2 
  .rodata.__func__.11
-                0x000044f8       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000044fc       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.__func__.10
-                0x0000450c       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00004510       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.__func__.5
-                0x00004520       0x12 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00004532        0x2 
+                0x00004524       0x12 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x00004536        0x2 
  .rodata.__func__.4
-                0x00004534       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00004549        0x3 
+                0x00004538       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x0000454d        0x3 
  .rodata.__func__.2
-                0x0000454c       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00004550       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.__func__.1
-                0x00004564       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00004579        0x3 
+                0x00004568       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x0000457d        0x3 
  .rodata.s_pwmBases
-                0x0000457c       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
+                0x00004580       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
  .rodata.s_pwmClock
-                0x00004590       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
+                0x00004594       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
  .rodata.__func__.2
-                0x000045a4       0x10 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
+                0x000045a8       0x10 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
  .rodata.__func__.1
-                0x000045b4        0x9 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
- *fill*         0x000045bd        0x3 
+                0x000045b8        0x9 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
+ *fill*         0x000045c1        0x3 
  .rodata.__func__.0
-                0x000045c0       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
- *fill*         0x000045d5        0x3 
+                0x000045c4       0x15 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_pwm.c.obj
+ *fill*         0x000045d9        0x3 
  .rodata.s_uartBases
-                0x000045d8       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000045dc       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.s_uartClock
-                0x000045ec       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000045f0       0x14 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.24
-                0x00004600       0x11 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00004611        0x3 
+                0x00004604       0x11 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004615        0x3 
  .rodata.__func__.21
-                0x00004614        0xa CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000461e        0x2 
+                0x00004618        0xa CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004622        0x2 
  .rodata.__func__.20
-                0x00004620       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00004624       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.19
-                0x00004638       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000463c       0x18 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.18
-                0x00004650       0x17 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00004667        0x1 
+                0x00004654       0x17 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x0000466b        0x1 
  .rodata.__func__.17
-                0x00004668       0x16 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000467e        0x2 
+                0x0000466c       0x16 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004682        0x2 
  .rodata.__func__.13
-                0x00004680       0x13 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00004693        0x1 
+                0x00004684       0x13 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004697        0x1 
  .rodata.__func__.12
-                0x00004694       0x12 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x000046a6        0x2 
+                0x00004698       0x12 CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x000046aa        0x2 
  .rodata.__func__.6
-                0x000046a8       0x1e CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x000046ac       0x1e CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  *(.glue_7)
- .glue_7        0x000046c6        0x0 linker stubs
+ .glue_7        0x000046ca        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000046c6        0x0 linker stubs
+ .glue_7t       0x000046ca        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x000046c6        0x2 
- .eh_frame      0x000046c8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *fill*         0x000046ca        0x2 
+ .eh_frame      0x000046cc        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  *(.init)
- .init          0x000046c8        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x000046c8                _init
- .init          0x000046cc        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
+ .init          0x000046cc        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x000046cc                _init
+ .init          0x000046d0        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x000046d4        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x000046d4                _fini
- .fini          0x000046d8        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
-                0x000046e0                        . = ALIGN (0x4)
+ .fini          0x000046d8        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x000046d8                _fini
+ .fini          0x000046dc        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
+                0x000046e4                        . = ALIGN (0x4)
 
-.vfp11_veneer   0x000046e0        0x0
- .vfp11_veneer  0x000046e0        0x0 linker stubs
+.vfp11_veneer   0x000046e4        0x0
+ .vfp11_veneer  0x000046e4        0x0 linker stubs
 
-.v4_bx          0x000046e0        0x0
- .v4_bx         0x000046e0        0x0 linker stubs
+.v4_bx          0x000046e4        0x0
+ .v4_bx         0x000046e4        0x0 linker stubs
 
-.iplt           0x000046e0        0x0
- .iplt          0x000046e0        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x000046e4        0x0
+ .iplt          0x000046e4        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000046e0        0x8
-                0x000046e0                        __exidx_start = .
+.ARM            0x000046e4        0x8
+                0x000046e4                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000046e0        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
+ .ARM.exidx     0x000046e4        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x000046e8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x000046ec        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x000046e8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x000046ec        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x000046e8                        __exidx_end = .
+                0x000046ec                        __exidx_end = .
 
-.rel.dyn        0x000046e8        0x0
- .rel.iplt      0x000046e8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rel.dyn        0x000046ec        0x0
+ .rel.iplt      0x000046ec        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ctors          0x000046e8        0x0
-                0x000046e8                        __CTOR_LIST__ = .
+.ctors          0x000046ec        0x0
+                0x000046ec                        __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x000046e8                        __CTOR_END__ = .
+                0x000046ec                        __CTOR_END__ = .
 
-.dtors          0x000046e8        0x0
-                0x000046e8                        __DTOR_LIST__ = .
+.dtors          0x000046ec        0x0
+                0x000046ec                        __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000046e8                        __DTOR_END__ = .
+                0x000046ec                        __DTOR_END__ = .
 
-.preinit_array  0x000046e8        0x0
-                0x000046e8                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000046ec        0x0
+                0x000046ec                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000046e8                        PROVIDE (__preinit_array_end = .)
+                0x000046ec                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000046e8        0x4
-                0x000046e8                        PROVIDE (__init_array_start = .)
+.init_array     0x000046ec        0x4
+                0x000046ec                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000046e8        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x000046ec                        PROVIDE (__init_array_end = .)
+ .init_array    0x000046ec        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x000046f0                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x000046ec        0x4
+.fini_array     0x000046f0        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000046ec        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x000046f0        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000046f0                        __etext = .
-                0x000046f0                        __DATA_ROM = .
+                0x000046f4                        __etext = .
+                0x000046f4                        __DATA_ROM = .
 
-.data           0x20000000        0x8 load address 0x000046f0
+.data           0x20000000        0x8 load address 0x000046f4
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        __DATA_RAM = .
                 0x20000000                        __data_start__ = .
@@ -1652,19 +1651,19 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x20000008                        __data_end__ = .
                 0x00000000                        __CACHE_REGION_START = ORIGIN (m_interrupts)
                 0x00000000                        __CACHE_REGION_SIZE = 0x0
-                0x000046f8                        __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
+                0x000046fc                        __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
 
 .tm_clone_table
-                0x20000008        0x0 load address 0x000046f8
+                0x20000008        0x0 load address 0x000046fc
  .tm_clone_table
                 0x20000008        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  .tm_clone_table
                 0x20000008        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtend.o
 
-.igot.plt       0x20000008        0x0 load address 0x000046f8
+.igot.plt       0x20000008        0x0 load address 0x000046fc
  .igot.plt      0x20000008        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ncache.init    0x80000000        0x0 load address 0x000046f8
+.ncache.init    0x80000000        0x0 load address 0x000046fc
                 0x80000000                        __noncachedata_start__ = .
  *(NonCacheable.init)
                 0x80000000                        . = ALIGN (0x4)
@@ -1675,11 +1674,11 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
  *(NonCacheable)
                 0x80000000                        . = ALIGN (0x4)
                 0x80000000                        __noncachedata_end__ = .
-                0x000046f8                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x000046fc                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x00020000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
-.bss            0x20000008       0x54 load address 0x000046f8
+.bss            0x20000008       0x54 load address 0x000046fc
                 0x20000008                        . = ALIGN (0x4)
                 0x20000008                        __START_BSS = .
                 0x20000008                        __bss_start__ = .
@@ -1709,7 +1708,7 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x2000005c                        __bss_end__ = .
                 0x2000005c                        __END_BSS = .
 
-.heap           0x2000005c      0x404 load address 0x0000474c
+.heap           0x2000005c      0x404 load address 0x00004750
                 0x20000060                        . = ALIGN (0x8)
  *fill*         0x2000005c        0x4 
                 0x20000060                        __end__ = .
@@ -1720,7 +1719,7 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x20000460                        __HeapLimit = .
                 0x20000460                        __heap_limit = .
 
-.stack          0x20000460      0x400 load address 0x00004b50
+.stack          0x20000460      0x400 load address 0x00004b54
                 0x20000460                        . = ALIGN (0x8)
                 0x20000860                        . = (. + STACK_SIZE)
  *fill*         0x20000460      0x400 

@@ -23,3 +23,5 @@
 15401	27268	7798835190892959	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	e52f995e36bc7ce3
 15814	27421	7798835195028067	CMakeFiles/ipwm_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	f765a751698fd5c9
 27423	37133	7798835311169002	ipwm_cm7.elf	6fb810690d8bc821
+513	5942	7798847820814823	CMakeFiles/ipwm_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/PWM_4/pwm.c.obj	dc8164aaf4ab714a
+5944	10041	7798847875079791	ipwm_cm7.elf	6fb810690d8bc821

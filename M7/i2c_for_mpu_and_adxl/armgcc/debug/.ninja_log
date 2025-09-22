@@ -49,3 +49,7 @@
 18889	28922	7798867691696221	CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/29413a3aabdc15e8e6459658cc6f4d54/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	662cac96e162d2d9
 19014	29200	7798867692942813	CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	b00e7398add10b58
 29200	35094	7798867794864838	ii2c_polling_b2b_transfer_master_cm7.elf	1d1f944aba923273
+396	4523	7802253629892809	CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/i2c_polling_b2b_transfer_master.c.obj	7144bd7412ffd916
+4525	7626	7802253671146428	ii2c_polling_b2b_transfer_master_cm7.elf	1d1f944aba923273
+302	4233	7802258735663802	CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/i2c_polling_b2b_transfer_master.c.obj	7144bd7412ffd916
+4234	7106	7802258774950601	ii2c_polling_b2b_transfer_master_cm7.elf	1d1f944aba923273

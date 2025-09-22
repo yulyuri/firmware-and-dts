@@ -1656,113 +1656,113 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x000055a8                _exit
  *(.rodata)
  *fill*         0x000055aa        0x2 
- .rodata        0x000055ac      0x15f CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/i2c_polling_b2b_transfer_master.c.obj
- *fill*         0x0000570b        0x1 
- .rodata        0x0000570c      0x123 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/board.c.obj
- *fill*         0x0000582f        0x1 
- .rodata        0x00005830       0xf3 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x00005923        0x1 
- .rodata        0x00005924       0x6a CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- *fill*         0x0000598e        0x2 
- .rodata        0x00005990      0x186 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00005b16        0x2 
- .rodata        0x00005b18      0x114 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
- .rodata        0x00005c2c      0x296 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00005ec2        0x2 
- .rodata        0x00005ec4      0x13e CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- *fill*         0x00006002        0x2 
- .rodata        0x00006004       0x3e CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/29413a3aabdc15e8e6459658cc6f4d54/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .rodata        0x000055ac      0x163 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/i2c_polling_b2b_transfer_master.c.obj
+ *fill*         0x0000570f        0x1 
+ .rodata        0x00005710      0x123 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/board.c.obj
+ *fill*         0x00005833        0x1 
+ .rodata        0x00005834       0xf3 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x00005927        0x1 
+ .rodata        0x00005928       0x6a CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x00005992        0x2 
+ .rodata        0x00005994      0x186 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x00005b1a        0x2 
+ .rodata        0x00005b1c      0x114 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+ .rodata        0x00005c30      0x296 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00005ec6        0x2 
+ .rodata        0x00005ec8      0x13e CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ *fill*         0x00006006        0x2 
+ .rodata        0x00006008       0x3e CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/29413a3aabdc15e8e6459658cc6f4d54/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
  *(.rodata*)
- *fill*         0x00006042        0x2 
+ *fill*         0x00006046        0x2 
  .rodata.__func__.1
-                0x00006044       0x11 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/board.c.obj
- *fill*         0x00006055        0x3 
+                0x00006048       0x11 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/board.c.obj
+ *fill*         0x00006059        0x3 
  .rodata.__func__.0
-                0x00006058       0x1a CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/board.c.obj
- *fill*         0x00006072        0x2 
+                0x0000605c       0x1a CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/board.c.obj
+ *fill*         0x00006076        0x2 
  .rodata.g_audioPll1Config
-                0x00006074       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/clock_config.c.obj
-                0x00006074                g_audioPll1Config
+                0x00006078       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/clock_config.c.obj
+                0x00006078                g_audioPll1Config
  .rodata.g_audioPll2Config
-                0x00006084       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/clock_config.c.obj
-                0x00006084                g_audioPll2Config
+                0x00006088       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/clock_config.c.obj
+                0x00006088                g_audioPll2Config
  .rodata.g_saiPLLConfig
-                0x00006094       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/clock_config.c.obj
-                0x00006094                g_saiPLLConfig
+                0x00006098       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/i2c_for_mpu_and_adxl/clock_config.c.obj
+                0x00006098                g_saiPLLConfig
  .rodata.s_UartAdapterBase
-                0x000060a4       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x000060a8       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .rodata.__func__.5
-                0x000060b8        0xd CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x000060c5        0x3 
+                0x000060bc        0xd CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x000060c9        0x3 
  .rodata.__func__.3
-                0x000060c8       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x000060cc       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .rodata.__func__.2
-                0x000060e0       0x15 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x000060f5        0x3 
+                0x000060e4       0x15 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x000060f9        0x3 
  .rodata.__func__.0
-                0x000060f8       0x16 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- *fill*         0x0000610e        0x2 
+                0x000060fc       0x16 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x00006112        0x2 
  .rodata.__func__.11
-                0x00006110       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00006114       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.__func__.10
-                0x00006124       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00006128       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.__func__.5
-                0x00006138       0x12 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x0000614a        0x2 
+                0x0000613c       0x12 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x0000614e        0x2 
  .rodata.__func__.4
-                0x0000614c       0x15 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00006161        0x3 
+                0x00006150       0x15 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x00006165        0x3 
  .rodata.__func__.2
-                0x00006164       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00006168       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .rodata.__func__.1
-                0x0000617c       0x15 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00006191        0x3 
+                0x00006180       0x15 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x00006195        0x3 
  .rodata.s_i2cDividerTable
-                0x00006194       0x80 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+                0x00006198       0x80 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
  .rodata.s_i2cBases
-                0x00006214       0x1c CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+                0x00006218       0x1c CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
  .rodata.s_i2cClocks
-                0x00006230       0x1c CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+                0x00006234       0x1c CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
  .rodata.__func__.16
-                0x0000624c       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+                0x00006250       0x10 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
  .rodata.__func__.14
-                0x0000625c        0xf CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
- *fill*         0x0000626b        0x1 
+                0x00006260        0xf CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+ *fill*         0x0000626f        0x1 
  .rodata.__func__.13
-                0x0000626c       0x1b CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
- *fill*         0x00006287        0x1 
+                0x00006270       0x1b CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+ *fill*         0x0000628b        0x1 
  .rodata.__func__.12
-                0x00006288       0x1b CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
- *fill*         0x000062a3        0x1 
+                0x0000628c       0x1b CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_i2c.c.obj
+ *fill*         0x000062a7        0x1 
  .rodata.s_uartBases
-                0x000062a4       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000062a8       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.s_uartClock
-                0x000062b8       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000062bc       0x14 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.24
-                0x000062cc       0x11 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x000062dd        0x3 
+                0x000062d0       0x11 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x000062e1        0x3 
  .rodata.__func__.21
-                0x000062e0        0xa CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x000062ea        0x2 
+                0x000062e4        0xa CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x000062ee        0x2 
  .rodata.__func__.20
-                0x000062ec       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000062f0       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.19
-                0x00006304       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00006308       0x18 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.18
-                0x0000631c       0x17 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00006333        0x1 
+                0x00006320       0x17 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00006337        0x1 
  .rodata.__func__.17
-                0x00006334       0x16 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000634a        0x2 
+                0x00006338       0x16 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x0000634e        0x2 
  .rodata.__func__.13
-                0x0000634c       0x13 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000635f        0x1 
+                0x00006350       0x13 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00006363        0x1 
  .rodata.__func__.12
-                0x00006360       0x12 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00006372        0x2 
+                0x00006364       0x12 CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00006376        0x2 
  .rodata.__func__.6
-                0x00006374       0x1e CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- *fill*         0x00006392        0x6 
+                0x00006378       0x1e CMakeFiles/ii2c_polling_b2b_transfer_master_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ *fill*         0x00006396        0x2 
  .rodata.__pow_log_data
                 0x00006398     0x1048 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libm.a(libm_a-pow_log_data.o)
                 0x00006398                __pow_log_data

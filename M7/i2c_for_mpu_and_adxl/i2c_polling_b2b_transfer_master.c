@@ -39,9 +39,9 @@ int main(void)
 
     BOARD_InitHardware();
 
-    PRINTF("\r\nDUAL I2C DEMO test 34 (build %s %s)\r\n", __DATE__, __TIME__);
+    PRINTF("\r\nDUAL I2C DEMO test 345 (build %s %s)\r\n", __DATE__, __TIME__);
 
-    /* just your existing banner data */
+    /* existing banner data */
     for (uint32_t i = 0; i < I2C_DATA_LENGTH; i++) g_master_txBuff[i] = (uint8_t)i;
     PRINTF("Data sent :");
     for (uint32_t i = 0; i < I2C_DATA_LENGTH; i++) {

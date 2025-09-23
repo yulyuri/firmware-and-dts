@@ -1,0 +1,25 @@
+# ninja log v7
+657	5644	7802996064312381	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj	af666aa12d9aad24
+388	5811	7802996061615506	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture/empty_rsc_table.c.obj	d4e4859d50358cba
+260	7602	7802996060362259	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture/gpt_capture.c.obj	4eb377075b0a56b1
+739	7653	7802996065133069	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj	e02c21dd291f7d2
+447	7985	7802996062207498	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture/board.c.obj	3844fd9c31d9672b
+485	8085	7802996062582215	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture/clock_config.c.obj	493cd717a1feb648
+577	8134	7802996063505444	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture/hardware_init.c.obj	992b63bfcd8ee5cb
+531	8455	7802996063057216	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture/pin_mux.c.obj	f8d68ae8b81353ca
+789	8584	7802996065633038	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj	50a56a1d9191aeda
+1005	8796	7802996067816735	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj	406a6dc966e9c8fe
+835	8874	7802996066101829	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj	2590c8c54af32304
+615	8909	7802996063889166	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj	9b15b0595aed5763
+1061	8920	7802996068355271	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj	798e80318d9b01d9
+946	8987	7802996067218036	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj	1abb7b5d4ee75812
+8086	11291	7802996138603430	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj	7b4022f76601e948
+5646	11690	7802996114207981	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj	25bf935d736ee05e
+7985	11748	7802996137587045	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj	b22d22ac96578771
+7654	12020	7802996134285174	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj	d148f9120a80544
+5813	12105	7802996115865294	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj	4332e09a742b0b19
+7606	12785	7802996133804992	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj	c3228bfd4eb48ae3
+8134	13404	7802996139085857	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	c01585e14ef82f38
+8584	13470	7802996143586045	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	5bbf74b49a536654
+8455	13692	7802996142289004	CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	f90d15f5634a0fa5
+13692	16552	7802996194692454	gpt_capture_cm7.elf	ebdfe322474485f8

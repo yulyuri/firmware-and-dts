@@ -11,7 +11,7 @@
  * Definitions
  ******************************************************************************/
 /*${macro:start}*/
-#define LED_GPIO     GPIO3
+#define  LED_GPIO     GPIO3
 #define LED_GPIO_PIN 16U
 /*${macro:end}*/
 

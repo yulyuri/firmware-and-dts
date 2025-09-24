@@ -1,0 +1,3 @@
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/armgcc/debug/CMakeFiles/gpt_capture_cm7.elf.dir
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/armgcc/debug/CMakeFiles/edit_cache.dir
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/armgcc/debug/CMakeFiles/rebuild_cache.dir

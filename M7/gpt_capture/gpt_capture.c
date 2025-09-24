@@ -51,7 +51,7 @@ int main(void)
     BOARD_InitHardware();
 
     /* Print a note to terminal */
-    PRINTF("\r\nGPT input capture test 1\r\n");
+    PRINTF("\r\nGPT input capture test 3\r\n");
     PRINTF("\r\nOnce the input signal is received the input capture value is printed\r\n");
 
     GPT_GetDefaultConfig(&gptConfig);

@@ -1,0 +1,25 @@
+# ninja log v7
+749	11537	7808306996178648	CMakeFiles/flexcan_loopback_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/empty_rsc_table.c.obj	562e9d3376d921ab
+1334	12467	7808307002048636	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj	bc8233215e1fd4f5
+510	17084	7808306993872202	CMakeFiles/flexcan_loopback_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/flexcan_loopback.c.obj	42d5449ba00a3a0
+947	17319	7808306998158201	CMakeFiles/flexcan_loopback_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/clock_config.c.obj	6e8fe901d4bc0259
+1462	17534	7808307003317354	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj	dffc3bea29de9675
+1158	17647	7808307000272457	CMakeFiles/flexcan_loopback_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/hardware_init.c.obj	bf3d85887c04cf11
+1237	19456	7808307001070118	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj	48d07a3859561d5d
+850	19674	7808306997183228	CMakeFiles/flexcan_loopback_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/board.c.obj	81b3dff60ecf550a
+1052	19824	7808306999241661	CMakeFiles/flexcan_loopback_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/pin_mux.c.obj	cc469dbb070ec76e
+1567	19955	7808307004374351	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj	6a9875fd5cea4d55
+2193	19979	7808307010616872	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj	dae31f03e541abea
+2356	20914	7808307012276488	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj	86e0e2eaa1cdbd17
+1832	21045	7808307007024512	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj	28f5bed2c4d46187
+2641	21265	7808307015125976	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_flexcan.c.obj	6ae0b792ee983756
+17648	25323	7808307165174771	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj	8ea6e7032f4b63eb
+11568	26511	7808307104451600	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj	b6c11b3f5931501d
+17535	27114	7808307164039932	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj	a248cddc51e25a80
+17321	27551	7808307161905727	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj	fb29e95d34d51648
+12469	27672	7808307113383358	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj	575bb66b067a3ad
+17097	29519	7808307159710783	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj	89466a919754fc2b
+19456	30328	7808307183259976	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	370b280c052abcf5
+19674	30693	7808307185441746	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	be5f65c5177ef549
+19824	30767	7808307186926806	CMakeFiles/flexcan_loopback_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	f0eceda41db2323
+30767	37510	7808307296511860	flexcan_loopback_cm7.elf	f11eca64d3533c16

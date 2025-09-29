@@ -1,0 +1,12 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/core_cm7.h:2013:22:__NVIC_EnableIRQ	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.h:1421:24:CLOCK_GetRootPreDivider	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.h:1434:24:CLOCK_GetRootPostDivider	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.h:672:24:EnableIRQ	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.h:902:24:DisableGlobalIRQ	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.h:928:20:EnableGlobalIRQ	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_flexcan.h:1656:24:FLEXCAN_GetMbStatusFlags	64	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_flexcan.h:1701:20:FLEXCAN_ClearMbStatusFlags	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_flexcan.h:1940:20:FLEXCAN_EnableMbInterrupts	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_flexcan.h:1994:20:FLEXCAN_DisableMbInterrupts	40	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/flexcan_loopback.c:50:6:CAN_FD1_IRQHandler	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/can_loopback/flexcan_loopback.c:89:5:main	72	static

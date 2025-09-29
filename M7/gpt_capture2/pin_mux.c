@@ -56,8 +56,8 @@ BOARD_InitPins:
  *
  * END ****************************************************************************************************************/
 void BOARD_InitPins(void) {                                /*!< Function assigned for the core: Cortex-M7F[m7] */
-    IOMUXC_SetPinMux(IOMUXC_UART3_RXD_GPT1_CAPTURE2, 0U);
-    IOMUXC_SetPinConfig(IOMUXC_UART3_RXD_GPT1_CAPTURE2, 
+    IOMUXC_SetPinMux(IOMUXC_SAI3_TXC_GPT1_CAPTURE1, 0U);
+    IOMUXC_SetPinConfig(IOMUXC_SAI3_TXC_GPT1_CAPTURE1, 
                         IOMUXC_SW_PAD_CTL_PAD_DSE(3U) |
                         IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_PE_MASK);

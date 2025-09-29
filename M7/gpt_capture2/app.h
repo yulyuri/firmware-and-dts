@@ -14,11 +14,11 @@
 #define DEMO_GPT_IRQn GPT1_IRQn
 #define DEMO_GPT_BASE GPT1
 /* GPT channel used for input capture */
-#define BOARD_GPT_INPUT_CAPTURE_CHANNEL kGPT_InputCapture_Channel2
+#define BOARD_GPT_INPUT_CAPTURE_CHANNEL kGPT_InputCapture_Channel1
 /* Interrupt to enable and flag to read; depends on the GPT channel used */
 #define EXAMPLE_GPT_CAPTURE_IRQHandler     GPT1_IRQHandler
-#define BOARD_GPT_CHANNEL_INTERRUPT_ENABLE kGPT_InputCapture2InterruptEnable
-#define BOARD_GPT_CHANNEL_FLAG             kGPT_InputCapture2Flag
+#define BOARD_GPT_CHANNEL_INTERRUPT_ENABLE kGPT_InputCapture1InterruptEnable
+#define BOARD_GPT_CHANNEL_FLAG             kGPT_InputCapture1Flag
 /*${macro:end}*/
 
 /*******************************************************************************

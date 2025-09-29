@@ -60,7 +60,7 @@ int main(void)
     GPT_Init(DEMO_GPT_BASE, &gptConfig);
 
     /* Setup input capture on a gpt channel */
-    GPT_SetInputOperationMode(DEMO_GPT_BASE, BOARD_GPT_INPUT_CAPTURE_CHANNEL, kGPT_InputOperation_RiseEdge);
+    GPT_SetInputOperationMode(DEMO_GPT_BASE, BOARD_GPT_INPUT_CAPTURE_CHANNEL, kGPT_InputOperation_BothEdge);
 
     /* Enable GPT Input Capture1 interrupt */
     GPT_EnableInterrupts(DEMO_GPT_BASE, BOARD_GPT_CHANNEL_INTERRUPT_ENABLE);

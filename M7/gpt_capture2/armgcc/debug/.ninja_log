@@ -37,3 +37,6 @@
 7718	13818	7804006404603071	gpt_capture_cm7.elf	20f801829594b97e
 792	8019	7804023185809980	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj	c115662339262935
 8023	14162	7804023258077978	gpt_capture_cm7.elf	20f801829594b97e
+422	4934	7804839225411479	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj	4c95fdd8c1545fe4
+343	5003	7804839224738180	CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj	c115662339262935
+5003	8138	7804839271329557	gpt_capture_cm7.elf	20f801829594b97e

@@ -1,0 +1,6 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/core_cm7.h:2143:22:__NVIC_SetPriority	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/core_cm7.h:2361:26:SysTick_Config	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.h:1421:24:CLOCK_GetRootPreDivider	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.h:1434:24:CLOCK_GetRootPostDivider	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/evkmimx8mp_ecspi_polling_b2b_transfer_master_cm7/ecspi_polling_b2b_transfer_master.c:34:6:SysTick_Handler	4	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/evkmimx8mp_ecspi_polling_b2b_transfer_master_cm7/ecspi_polling_b2b_transfer_master.c:42:5:main	72	static

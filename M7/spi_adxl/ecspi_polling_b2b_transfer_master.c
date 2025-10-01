@@ -1,137 +1,143 @@
-#include "fsl_device_registers.h"
+/*
+ * ADXL345 SPI - Direct Register Access (No SDK Blocking)
+ */
+
+#include <string.h>
+#include "board.h"
 #include "fsl_debug_console.h"
 #include "fsl_ecspi.h"
-#include "board.h"
 #include "app.h"
+#include "fsl_clock.h"
 
-/*******************************************************************************
- * Definitions
- ******************************************************************************/
-#define TRANSFER_BAUDRATE 500000U /* 500 kHz */
+#define ADXL_REG_DEVID           0x00
+#define ADXL_REG_POWERCTL        0x2D
+#define ADXL_REG_DATAFORMAT      0x31
+#define ADXL_REG_BWRATE          0x2C
+#define ADXL_REG_DATAX0          0x32
+#define SPI_BAUDRATE_ADXL        1000000U
 
-/* ADXL345 Registers */
-#define ADXL_REG_DEVID        0x00
-#define ADXL_REG_BW_RATE      0x2C
-#define ADXL_REG_POWER_CTL    0x2D
-#define ADXL_REG_DATA_FORMAT  0x31
-#define ADXL_REG_DATAX0       0x32
-
-/*******************************************************************************
- * Variables
- ******************************************************************************/
-uint8_t masterTxData[16];
-uint8_t masterRxData[16];
-volatile uint32_t g_systickCounter = 0U;
-
-/*******************************************************************************
- * Code
- ******************************************************************************/
-void SysTick_Handler(void)
+/* Direct SPI transfer without SDK blocking function */
+static uint8_t SPI_TransferByte(uint8_t txByte)
 {
-    if (g_systickCounter != 0U)
-    {
-        g_systickCounter--;
+    /* Write to TXDATA */
+    EXAMPLE_ECSPI_MASTER_BASEADDR->TXDATA = txByte;
+    
+    /* Trigger exchange */
+    EXAMPLE_ECSPI_MASTER_BASEADDR->CONREG |= (1U << 2);
+    
+    /* Wait for XCH bit to clear */
+    uint32_t timeout = 100000;
+    while ((EXAMPLE_ECSPI_MASTER_BASEADDR->CONREG & (1U << 2)) && timeout > 0) {
+        timeout--;
     }
+    
+    if (timeout == 0) {
+        PRINTF("SPI timeout!\r\n");
+        return 0xFF;
+    }
+    
+    /* Read RXDATA */
+    return (uint8_t)(EXAMPLE_ECSPI_MASTER_BASEADDR->RXDATA & 0xFF);
 }
 
-static void DelayMs(uint32_t ms)
+static uint8_t ADXL_ReadRegister(uint8_t reg)
 {
-    g_systickCounter = ms;
-    while (g_systickCounter != 0U)
-    {
-    }
+    SPI_TransferByte(reg | 0x80);  /* Send read command */
+    return SPI_TransferByte(0x00);  /* Read response */
+}
+
+static void ADXL_WriteRegister(uint8_t reg, uint8_t value)
+{
+    SPI_TransferByte(reg);    /* Send register address */
+    SPI_TransferByte(value);  /* Send data */
 }
 
 int main(void)
 {
+    uint32_t i;
+
     BOARD_InitHardware();
-    PRINTF("ADXL345 SPI Example (Polling Master)\r\n");
 
-    ecspi_master_config_t masterConfig;
-    ecspi_transfer_t masterXfer;
+    PRINTF("\r\n========================================\r\n");
+    PRINTF("ADXL345 Direct SPI\r\n");
+    PRINTF("Build: %s %s\r\n", __DATE__, __TIME__);
+    PRINTF("========================================\r\n\r\n");
 
-    /* ECSPI master init */
-    ECSPI_MasterGetDefaultConfig(&masterConfig);
-    masterConfig.baudRate_Bps = TRANSFER_BAUDRATE;
-    masterConfig.channel      = kECSPI_Channel0;
+    /* Manual ECSPI2 init */
+    EXAMPLE_ECSPI_MASTER_BASEADDR->CONREG = 0;
+    
+    uint32_t conreg = 0;
+    conreg |= (1U << 0);
+    conreg |= (1U << 1);    /* MASTER mode */
+    conreg |= (1U << 3);
+    conreg |= (0x7U << 20);
+    
+    uint32_t srcClock = ECSPI_MASTER_CLK_FREQ;
+    uint32_t divider = srcClock / SPI_BAUDRATE_ADXL;
+    if (divider > 0) divider--;
+    conreg |= ((divider & 0xF) << 12);
+    conreg |= (((divider >> 4) & 0xF) << 8);
+    
+    uint32_t configreg = 0;
+    configreg |= (1U << 0);
+    configreg |= (1U << 4);
+    configreg &= ~(1U << 8);
+    configreg &= ~(1U << 12);
+    configreg |= (1U << 16);
+    
+    EXAMPLE_ECSPI_MASTER_BASEADDR->CONREG = conreg;
+    EXAMPLE_ECSPI_MASTER_BASEADDR->CONFIGREG = configreg;
+    
+    PRINTF("ECSPI2 ready. MODE=%u\r\n\r\n", (unsigned int)((EXAMPLE_ECSPI_MASTER_BASEADDR->CONREG >> 1) & 0x1));
+    
+    for (i = 0; i < 100000; i++);
 
-    /* Force Mode 3, CS active low */
-    masterConfig.channelConfig.channelMode           = kECSPI_SpiMaster;
-    masterConfig.channelConfig.clockInactiveState    = kECSPI_ClockInactiveStateHigh;
-    masterConfig.channelConfig.dataLineInactiveState = kECSPI_DataLineInactiveStateHigh;
-    masterConfig.channelConfig.chipSlectActiveState  = kECSPI_ChipSelectActiveStateLow;
-    masterConfig.channelConfig.polarity              = kECSPI_ClockPolarityActiveHigh;   /* CPOL=1 */
-    masterConfig.channelConfig.phase                 = kECSPI_ClockPhaseSecondEdge;     /* CPHA=1 */
-
-    ECSPI_MasterInit(EXAMPLE_ECSPI_MASTER_BASEADDR, &masterConfig, ECSPI_MASTER_CLK_FREQ);
-
-    /* Setup SysTick for 1ms tick */
-    if (SysTick_Config(SystemCoreClock / 1000U))
-    {
-        while (1) {}
-    }
-
-    /***********************
-     * 1. Read DEVID (0xE5)
-     ***********************/
-    masterTxData[0] = 0x80 | ADXL_REG_DEVID; /* Read command */
-    masterTxData[1] = 0x00;                  /* dummy */
-
-    masterXfer.channel  = kECSPI_Channel0;
-    masterXfer.txData   = masterTxData;
-    masterXfer.rxData   = masterRxData;
-    masterXfer.dataSize = 2;
-    ECSPI_MasterTransferBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &masterXfer);
-
-    uint8_t devid = masterRxData[1];
-    PRINTF("ADXL345 DEVID = 0x%02X (expect 0xE5)\r\n", devid);
-
-    /*******************************
-     * 2. Configure ADXL registers
-     *******************************/
-    /* BW_RATE = 0x0C (400 Hz) */
-    masterTxData[0] = ADXL_REG_BW_RATE;
-    masterTxData[1] = 0x0C;
-    masterXfer.txData   = masterTxData;
-    masterXfer.rxData   = NULL;
-    masterXfer.dataSize = 2;
-    ECSPI_MasterTransferBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &masterXfer);
-
-    /* DATA_FORMAT = 0x08 (FULL_RES, ±2g) */
-    masterTxData[0] = ADXL_REG_DATA_FORMAT;
-    masterTxData[1] = 0x08;
-    masterXfer.dataSize = 2;
-    ECSPI_MasterTransferBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &masterXfer);
-
-    /* POWER_CTL = 0x08 (Measure) */
-    masterTxData[0] = ADXL_REG_POWER_CTL;
-    masterTxData[1] = 0x08;
-    masterXfer.dataSize = 2;
-    ECSPI_MasterTransferBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &masterXfer);
-
-    /****************************
-     * 3. Loop: read XYZ values
-     ****************************/
-    while (1)
-    {
-        masterTxData[0] = 0x80 | 0x40 | ADXL_REG_DATAX0; /* Read + MB */
-        for (int i = 1; i <= 6; i++) masterTxData[i] = 0x00;
-
-        masterXfer.txData   = masterTxData;
-        masterXfer.rxData   = masterRxData;
-        masterXfer.dataSize = 7; /* 1 command + 6 data */
-        ECSPI_MasterTransferBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &masterXfer);
-
-        int16_t x = (int16_t)((masterRxData[2] << 8) | masterRxData[1]);
-        int16_t y = (int16_t)((masterRxData[4] << 8) | masterRxData[3]);
-        int16_t z = (int16_t)((masterRxData[6] << 8) | masterRxData[5]);
-
-        float x_g = x * 0.0039f;
-        float y_g = y * 0.0039f;
-        float z_g = z * 0.0039f;
-
-        PRINTF("ADXL345 [g]: X=%7.3f  Y=%7.3f  Z=%7.3f\r\n", x_g, y_g, z_g);
-
-        DelayMs(50);
+    PRINTF("Reading DEVID...\r\n");
+    uint8_t devid = ADXL_ReadRegister(ADXL_REG_DEVID);
+    PRINTF("DEVID = 0x%02X ", devid);
+    
+    if (devid == 0xE5) {
+        PRINTF("OK!\r\n\r\n");
+        
+        ADXL_WriteRegister(ADXL_REG_POWERCTL, 0x00);
+        for (i = 0; i < 50000; i++);
+        ADXL_WriteRegister(ADXL_REG_POWERCTL, 0x08);
+        for (i = 0; i < 50000; i++);
+        ADXL_WriteRegister(ADXL_REG_DATAFORMAT, 0x00);
+        ADXL_WriteRegister(ADXL_REG_BWRATE, 0x0A);
+        
+        PRINTF("Reading data...\r\n");
+        
+        uint32_t count = 0;
+        for (;;)
+        {
+            SPI_TransferByte(ADXL_REG_DATAX0 | 0xC0);  /* Multi-byte read */
+            
+            uint8_t x0 = SPI_TransferByte(0);
+            uint8_t x1 = SPI_TransferByte(0);
+            uint8_t y0 = SPI_TransferByte(0);
+            uint8_t y1 = SPI_TransferByte(0);
+            uint8_t z0 = SPI_TransferByte(0);
+            uint8_t z1 = SPI_TransferByte(0);
+            
+            int16_t x = (int16_t)((x1 << 8) | x0);
+            int16_t y = (int16_t)((y1 << 8) | y0);
+            int16_t z = (int16_t)((z1 << 8) | z0);
+            
+            float x_g = (float)x / 256.0f;
+            float y_g = (float)y / 256.0f;
+            float z_g = (float)z / 256.0f;
+            
+            if (count % 5 == 0) {
+                PRINTF("[%lu] X=%6.2f Y=%6.2f Z=%6.2f g\r\n", count, x_g, y_g, z_g);
+            }
+            
+            count++;
+            for (i = 0; i < 500000; i++);
+        }
+        
+    } else {
+        PRINTF("FAIL\r\n");
+        while(1);
     }
 }

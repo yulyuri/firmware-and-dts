@@ -178,7 +178,7 @@ void BOARD_RdcInit(void)
     CLOCK_EnableClock(kCLOCK_Ipmux1);
     CLOCK_EnableClock(kCLOCK_Ipmux2);
     CLOCK_EnableClock(kCLOCK_Ipmux3);
-
+    CLOCK_EnableClock(kCLOCK_Ecspi2);
     if (BOARD_IS_XIP_FLEXSPI())
     {
         CLOCK_EnableClock(kCLOCK_Qspi);

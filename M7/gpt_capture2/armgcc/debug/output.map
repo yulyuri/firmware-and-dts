@@ -877,7 +877,7 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
                 0x00000400                resource_table
                 0x00000410                        . = ALIGN (0x8)
 
-.text           0x00000410     0x44d0
+.text           0x00000410     0x4754
                 0x00000410                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000410       0x7c C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
@@ -1233,445 +1233,448 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
  .text.GPT_ClearStatusFlags
                 0x00000cda       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
  .text.GPT1_IRQHandler
-                0x00000cf8       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x00000cf8      0x104 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
                 0x00000cf8                GPT1_IRQHandler
- .text.main     0x00000d1c       0x88 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
-                0x00000d1c                main
+ .text.main     0x00000dfc      0x170 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x00000dfc                main
  .text.ARM_MPU_Enable
-                0x00000da4       0x44 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x00000f6c       0x44 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.ARM_MPU_Disable
-                0x00000de8       0x40 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x00000fb0       0x40 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.CLOCK_GetRootPreDivider
-                0x00000e28       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x00000ff0       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.CLOCK_GetRootPostDivider
-                0x00000e48       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x00001010       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.CLOCK_ControlGate
-                0x00000e66       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x0000102e       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.RDC_GetPeriphAccessPolicy
-                0x00000e84       0x54 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x0000104c       0x54 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.RDC_GetCurrentMasterDomainId
-                0x00000ed8       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x000010a0       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .text.BOARD_InitDebugConsole
-                0x00000ef8       0x54 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
-                0x00000ef8                BOARD_InitDebugConsole
+                0x000010c0       0x54 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x000010c0                BOARD_InitDebugConsole
  .text.BOARD_InitMemory
-                0x00000f4c      0x2f8 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
-                0x00000f4c                BOARD_InitMemory
+                0x00001114      0x2f8 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x00001114                BOARD_InitMemory
  .text.BOARD_RdcInit
-                0x00001244       0xec CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
-                0x00001244                BOARD_RdcInit
+                0x0000140c       0xec CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x0000140c                BOARD_RdcInit
  .text.CLOCK_SetRootMux
-                0x00001330       0x2c CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+                0x000014f8       0x2c CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
  .text.BOARD_BootClockRUN
-                0x0000135c      0x158 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
-                0x0000135c                BOARD_BootClockRUN
+                0x00001524      0x158 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+                0x00001524                BOARD_BootClockRUN
  .text.IOMUXC_SetPinMux
-                0x000014b4       0x3e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+                0x0000167c       0x3e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
  .text.IOMUXC_SetPinConfig
-                0x000014f2       0x26 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+                0x000016ba       0x26 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
  .text.BOARD_InitBootPins
-                0x00001518        0xc CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
-                0x00001518                BOARD_InitBootPins
+                0x000016e0        0xc CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+                0x000016e0                BOARD_InitBootPins
  .text.BOARD_InitPins
-                0x00001524       0xac CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
-                0x00001524                BOARD_InitPins
+                0x000016ec       0xac CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+                0x000016ec                BOARD_InitPins
  .text.BOARD_InitHardware
-                0x000015d0       0x1c CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
-                0x000015d0                BOARD_InitHardware
+                0x00001798       0x1c CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+                0x00001798                BOARD_InitHardware
  .text.HAL_UartGetStatus
-                0x000015ec       0x22 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x0000160e        0x2 
+                0x000017b4       0x22 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x000017d6        0x2 
  .text.HAL_UartInit
-                0x00001610      0x120 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-                0x00001610                HAL_UartInit
+                0x000017d8      0x120 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x000017d8                HAL_UartInit
  .text.HAL_UartReceiveBlocking
-                0x00001730       0x8c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-                0x00001730                HAL_UartReceiveBlocking
+                0x000018f8       0x8c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x000018f8                HAL_UartReceiveBlocking
  .text.HAL_UartSendBlocking
-                0x000017bc       0x84 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
-                0x000017bc                HAL_UartSendBlocking
+                0x00001984       0x84 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x00001984                HAL_UartSendBlocking
  .text.GetFracPllFreq
-                0x00001840      0x148 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00001840                GetFracPllFreq
+                0x00001a08      0x148 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00001a08                GetFracPllFreq
  .text.GetIntegerPllFreq
-                0x00001988       0xfc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00001988                GetIntegerPllFreq
+                0x00001b50       0xfc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00001b50                GetIntegerPllFreq
  .text.SystemInit
-                0x00001a84       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00001a84                SystemInit
+                0x00001c4c       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00001c4c                SystemInit
  .text.SystemCoreClockUpdate
-                0x00001aa4      0x108 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00001aa4                SystemCoreClockUpdate
+                0x00001c6c      0x108 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00001c6c                SystemCoreClockUpdate
  .text.SystemInitHook
-                0x00001bac        0xe CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x00001bac                SystemInitHook
- *fill*         0x00001bba        0x2 
+                0x00001d74        0xe CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00001d74                SystemInitHook
+ *fill*         0x00001d82        0x2 
  .text.AUDIOMIX_InitAudioPll
-                0x00001bbc       0xbc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
-                0x00001bbc                AUDIOMIX_InitAudioPll
+                0x00001d84       0xbc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x00001d84                AUDIOMIX_InitAudioPll
  .text.CLOCK_SetPllBypass
-                0x00001c78       0x68 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00001e40       0x68 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_IsPllBypassed
-                0x00001ce0       0x38 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00001ea8       0x38 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_IsPllLocked
-                0x00001d18       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00001ee0       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_EnableAnalogClock
-                0x00001d3c       0x38 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00001f04       0x38 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .text.CLOCK_GetPllRefClkFreq
-                0x00001d74       0x78 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00001d74                CLOCK_GetPllRefClkFreq
+                0x00001f3c       0x78 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00001f3c                CLOCK_GetPllRefClkFreq
  .text.CLOCK_GetPllFreq
-                0x00001dec      0x18c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00001dec                CLOCK_GetPllFreq
+                0x00001fb4      0x18c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00001fb4                CLOCK_GetPllFreq
  .text.CLOCK_InitAudioPll1
-                0x00001f78       0x68 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00001f78                CLOCK_InitAudioPll1
+                0x00002140       0x68 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00002140                CLOCK_InitAudioPll1
  .text.CLOCK_InitAudioPll2
-                0x00001fe0       0x74 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00001fe0                CLOCK_InitAudioPll2
+                0x000021a8       0x74 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000021a8                CLOCK_InitAudioPll2
  .text.CLOCK_InitFracPll
-                0x00002054      0x160 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00002054                CLOCK_InitFracPll
+                0x0000221c      0x160 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000221c                CLOCK_InitFracPll
  .text.CLOCK_GetFracPllFreq
-                0x000021b4      0x144 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x000021b4                CLOCK_GetFracPllFreq
+                0x0000237c      0x144 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000237c                CLOCK_GetFracPllFreq
  .text.CLOCK_GetIntegerPllFreq
-                0x000022f8      0x10c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x000022f8                CLOCK_GetIntegerPllFreq
+                0x000024c0      0x10c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000024c0                CLOCK_GetIntegerPllFreq
  .text.CLOCK_SetRootDivider
-                0x00002404       0x80 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00002404                CLOCK_SetRootDivider
+                0x000025cc       0x80 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x000025cc                CLOCK_SetRootDivider
  .text.CLOCK_EnableClock
-                0x00002484       0xa0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
-                0x00002484                CLOCK_EnableClock
+                0x0000264c       0xa0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x0000264c                CLOCK_EnableClock
  .text.GPT_SoftwareReset
-                0x00002524       0x32 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- *fill*         0x00002556        0x2 
+                0x000026ec       0x32 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ *fill*         0x0000271e        0x2 
  .text.GPT_SetClockDivider
-                0x00002558       0x50 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+                0x00002720       0x50 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
  .text.GPT_GetInstance
-                0x000025a8       0x58 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+                0x00002770       0x58 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
  .text.GPT_Init
-                0x00002600      0x104 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
-                0x00002600                GPT_Init
+                0x000027c8      0x104 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+                0x000027c8                GPT_Init
  .text.GPT_GetDefaultConfig
-                0x00002704       0x68 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
-                0x00002704                GPT_GetDefaultConfig
+                0x000028cc       0x68 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+                0x000028cc                GPT_GetDefaultConfig
  .text.UART_SoftwareReset
-                0x0000276c       0x36 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002934       0x36 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_Enable
-                0x000027a2       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000296a       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_Disable
-                0x000027c6       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000298e       0x24 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_WriteByte
-                0x000027ea       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000029b2       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_ReadByte
-                0x00002808       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00002822        0x2 
+                0x000029d0       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x000029ea        0x2 
  .text.UART_SetTxFifoWatermark
-                0x00002824       0x54 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000029ec       0x54 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_SetRxRTSWatermark
-                0x00002878       0x4c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002a40       0x4c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_SetRxFifoWatermark
-                0x000028c4       0x4c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002a8c       0x4c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_EnableAutoBaudRate
-                0x00002910       0x50 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002ad8       0x50 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .text.UART_GetInstance
-                0x00002960       0x60 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00002960                UART_GetInstance
+                0x00002b28       0x60 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002b28                UART_GetInstance
  .text.UART_Init
-                0x000029c0      0x1a0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x000029c0                UART_Init
+                0x00002b88      0x1a0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002b88                UART_Init
  .text.UART_GetDefaultConfig
-                0x00002b60       0x84 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00002b60                UART_GetDefaultConfig
+                0x00002d28       0x84 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002d28                UART_GetDefaultConfig
  .text.UART_SetBaudRate
-                0x00002be4      0x3b0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00002be4                UART_SetBaudRate
+                0x00002dac      0x3b0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00002dac                UART_SetBaudRate
  .text.UART_ClearStatusFlag
-                0x00002f94       0x3c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00002f94                UART_ClearStatusFlag
+                0x0000315c       0x3c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000315c                UART_ClearStatusFlag
  .text.UART_WriteBlocking
-                0x00002fd0       0x70 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00002fd0                UART_WriteBlocking
+                0x00003198       0x70 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00003198                UART_WriteBlocking
  .text.UART_ReadBlocking
-                0x00003040       0xdc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00003040                UART_ReadBlocking
+                0x00003208       0xdc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00003208                UART_ReadBlocking
  .text.UART1_DriverIRQHandler
-                0x0000311c       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000311c                UART1_DriverIRQHandler
+                0x000032e4       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000032e4                UART1_DriverIRQHandler
  .text.UART2_DriverIRQHandler
-                0x00003144       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00003144                UART2_DriverIRQHandler
+                0x0000330c       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000330c                UART2_DriverIRQHandler
  .text.UART3_DriverIRQHandler
-                0x0000316c       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x0000316c                UART3_DriverIRQHandler
+                0x00003334       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00003334                UART3_DriverIRQHandler
  .text.UART4_DriverIRQHandler
-                0x00003194       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x00003194                UART4_DriverIRQHandler
+                0x0000335c       0x28 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x0000335c                UART4_DriverIRQHandler
  .text.RDC_SetMasterDomainAssignment
-                0x000031bc       0x48 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
-                0x000031bc                RDC_SetMasterDomainAssignment
+                0x00003384       0x48 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x00003384                RDC_SetMasterDomainAssignment
  .text.fsl_assert_hook
-                0x00003204       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
-                0x00003204                fsl_assert_hook
- *fill*         0x0000321e        0x2 
+                0x000033cc       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+                0x000033cc                fsl_assert_hook
+ *fill*         0x000033e6        0x2 
  .text.__assert_func
-                0x00003220       0x30 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
-                0x00003220                __assert_func
+                0x000033e8       0x30 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+                0x000033e8                __assert_func
  .text.DbgConsole_Init
-                0x00003250       0x88 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x00003250                DbgConsole_Init
+                0x00003418       0x88 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00003418                DbgConsole_Init
  .text.DbgConsole_Printf
-                0x000032d8       0x2c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x000032d8                DbgConsole_Printf
+                0x000034a0       0x2c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000034a0                DbgConsole_Printf
  .text.DbgConsole_Vprintf
-                0x00003304       0x3c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x00003304                DbgConsole_Vprintf
+                0x000034cc       0x3c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000034cc                DbgConsole_Vprintf
  .text.DbgConsole_Putchar
-                0x00003340       0x30 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
-                0x00003340                DbgConsole_Putchar
+                0x00003508       0x30 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00003508                DbgConsole_Putchar
  .text.DbgConsole_PrintfPaddingCharacter
-                0x00003370       0x40 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00003538       0x40 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.DbgConsole_ConvertRadixNumToString
-                0x000033b0       0xc2 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- *fill*         0x00003472        0x2 
+                0x00003578       0xc2 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ *fill*         0x0000363a        0x2 
  .text.DbgConsole_PrintfFormattedData
-                0x00003474      0x3e0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x0000363c      0x3e0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .text.__udivmoddi4
-                0x00003854      0x2bc C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x00003854                __udivmoddi4
- .text.exit     0x00003b10       0x24 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-exit.o)
-                0x00003b10                exit
- .text.memset   0x00003b34       0x10 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-memset.o)
-                0x00003b34                memset
+                0x00003a1c      0x2bc C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x00003a1c                __udivmoddi4
+ .text.exit     0x00003cd8       0x24 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-exit.o)
+                0x00003cd8                exit
+ .text.memset   0x00003cfc       0x10 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-memset.o)
+                0x00003cfc                memset
  .text.__libc_init_array
-                0x00003b44       0x48 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-init.o)
-                0x00003b44                __libc_init_array
- .text._exit    0x00003b8c        0x2 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
-                0x00003b8c                _exit
+                0x00003d0c       0x48 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-init.o)
+                0x00003d0c                __libc_init_array
+ .text._exit    0x00003d54        0x2 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
+                0x00003d54                _exit
  *(.rodata)
- *fill*         0x00003b8e        0x2 
- .rodata        0x00003b90      0x103 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- *fill*         0x00003c93        0x1 
- .rodata        0x00003c94      0x11b CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- *fill*         0x00003daf        0x1 
- .rodata        0x00003db0       0xf3 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x00003ea3        0x1 
- .rodata        0x00003ea4       0x6a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- *fill*         0x00003f0e        0x2 
- .rodata        0x00003f10      0x186 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00004096        0x2 
- .rodata        0x00004098      0x11f CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- *fill*         0x000041b7        0x1 
- .rodata        0x000041b8      0x296 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000444e        0x2 
- .rodata        0x00004450      0x13e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- *fill*         0x0000458e        0x2 
- .rodata        0x00004590       0x3e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- *(.rodata*)
- *fill*         0x000045ce        0x2 
- .rodata.__func__.1
-                0x000045d0       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- *fill*         0x000045ea        0x2 
- .rodata.__func__.0
-                0x000045ec       0x19 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- *fill*         0x00004605        0x3 
- .rodata.__func__.1
-                0x00004608       0x11 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- *fill*         0x00004619        0x3 
- .rodata.__func__.0
-                0x0000461c       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- *fill*         0x00004636        0x2 
- .rodata.g_audioPll1Config
-                0x00004638       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
-                0x00004638                g_audioPll1Config
- .rodata.g_audioPll2Config
-                0x00004648       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
-                0x00004648                g_audioPll2Config
- .rodata.g_saiPLLConfig
-                0x00004658       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
-                0x00004658                g_saiPLLConfig
- .rodata.s_UartAdapterBase
-                0x00004668       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .rodata.__func__.5
-                0x0000467c        0xd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x00004689        0x3 
- .rodata.__func__.3
-                0x0000468c       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .rodata.__func__.2
-                0x000046a4       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- *fill*         0x000046b9        0x3 
- .rodata.__func__.0
-                0x000046bc       0x16 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x00003d56        0x2 
+ .rodata        0x00003d58      0x1be CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ *fill*         0x00003f16        0x2 
+ .rodata        0x00003f18      0x11b CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ *fill*         0x00004033        0x1 
+ .rodata        0x00004034       0xf3 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x00004127        0x1 
+ .rodata        0x00004128       0x6a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x00004192        0x2 
+ .rodata        0x00004194      0x186 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x0000431a        0x2 
+ .rodata        0x0000431c      0x11f CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ *fill*         0x0000443b        0x1 
+ .rodata        0x0000443c      0x296 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  *fill*         0x000046d2        0x2 
- .rodata.__func__.11
-                0x000046d4       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .rodata.__func__.10
-                0x000046e8       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .rodata.__func__.5
-                0x000046fc       0x12 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x0000470e        0x2 
- .rodata.__func__.4
-                0x00004710       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00004725        0x3 
+ .rodata        0x000046d4      0x13e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ *fill*         0x00004812        0x2 
+ .rodata        0x00004814       0x3e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ *(.rodata*)
+ *fill*         0x00004852        0x2 
  .rodata.__func__.2
-                0x00004728       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .rodata.__func__.1
-                0x00004740       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- *fill*         0x00004755        0x3 
- .rodata.s_gptBases
-                0x00004758       0x1c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .rodata.s_gptClocks
-                0x00004774       0x1c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .rodata.__func__.3
-                0x00004790       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .rodata.__func__.2
-                0x000047a0        0x9 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- *fill*         0x000047a9        0x3 
- .rodata.__func__.1
-                0x000047ac       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+                0x00004854       0x19 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ *fill*         0x0000486d        0x3 
  .rodata.__func__.0
-                0x000047c0       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- *fill*         0x000047d5        0x3 
+                0x00004870       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ *fill*         0x0000488a        0x2 
+ .rodata.__func__.1
+                0x0000488c       0x11 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ *fill*         0x0000489d        0x3 
+ .rodata.__func__.0
+                0x000048a0       0x1a CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ *fill*         0x000048ba        0x2 
+ .rodata.g_audioPll1Config
+                0x000048bc       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+                0x000048bc                g_audioPll1Config
+ .rodata.g_audioPll2Config
+                0x000048cc       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+                0x000048cc                g_audioPll2Config
+ .rodata.g_saiPLLConfig
+                0x000048dc       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+                0x000048dc                g_saiPLLConfig
+ .rodata.s_UartAdapterBase
+                0x000048ec       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .rodata.__func__.5
+                0x00004900        0xd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x0000490d        0x3 
+ .rodata.__func__.3
+                0x00004910       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .rodata.__func__.2
+                0x00004928       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ *fill*         0x0000493d        0x3 
+ .rodata.__func__.0
+                0x00004940       0x16 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ *fill*         0x00004956        0x2 
+ .rodata.__func__.11
+                0x00004958       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .rodata.__func__.10
+                0x0000496c       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .rodata.__func__.5
+                0x00004980       0x12 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x00004992        0x2 
+ .rodata.__func__.4
+                0x00004994       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x000049a9        0x3 
+ .rodata.__func__.2
+                0x000049ac       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .rodata.__func__.1
+                0x000049c4       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ *fill*         0x000049d9        0x3 
+ .rodata.s_gptBases
+                0x000049dc       0x1c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .rodata.s_gptClocks
+                0x000049f8       0x1c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .rodata.__func__.3
+                0x00004a14       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .rodata.__func__.2
+                0x00004a24        0x9 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ *fill*         0x00004a2d        0x3 
+ .rodata.__func__.1
+                0x00004a30       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .rodata.__func__.0
+                0x00004a44       0x15 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ *fill*         0x00004a59        0x3 
  .rodata.s_uartBases
-                0x000047d8       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00004a5c       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.s_uartClock
-                0x000047ec       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00004a70       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.24
-                0x00004800       0x11 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00004811        0x3 
+                0x00004a84       0x11 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004a95        0x3 
  .rodata.__func__.21
-                0x00004814        0xa CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000481e        0x2 
+                0x00004a98        0xa CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004aa2        0x2 
  .rodata.__func__.20
-                0x00004820       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00004aa4       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.19
-                0x00004838       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x00004abc       0x18 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .rodata.__func__.18
-                0x00004850       0x17 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00004867        0x1 
+                0x00004ad4       0x17 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004aeb        0x1 
  .rodata.__func__.17
-                0x00004868       0x16 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x0000487e        0x2 
+                0x00004aec       0x16 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004b02        0x2 
  .rodata.__func__.13
-                0x00004880       0x13 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x00004893        0x1 
+                0x00004b04       0x13 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004b17        0x1 
  .rodata.__func__.12
-                0x00004894       0x12 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- *fill*         0x000048a6        0x2 
+                0x00004b18       0x12 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ *fill*         0x00004b2a        0x2 
  .rodata.__func__.6
-                0x000048a8       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x00004b2c       0x1e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  *(.glue_7)
- .glue_7        0x000048c6        0x0 linker stubs
+ .glue_7        0x00004b4a        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000048c6        0x0 linker stubs
+ .glue_7t       0x00004b4a        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x000048c6        0x2 
- .eh_frame      0x000048c8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *fill*         0x00004b4a        0x2 
+ .eh_frame      0x00004b4c        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  *(.init)
- .init          0x000048c8        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x000048c8                _init
- .init          0x000048cc        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
+ .init          0x00004b4c        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x00004b4c                _init
+ .init          0x00004b50        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x000048d4        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
-                0x000048d4                _fini
- .fini          0x000048d8        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
-                0x000048e0                        . = ALIGN (0x4)
+ .fini          0x00004b58        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crti.o
+                0x00004b58                _fini
+ .fini          0x00004b5c        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00004b64                        . = ALIGN (0x4)
 
-.vfp11_veneer   0x000048e0        0x0
- .vfp11_veneer  0x000048e0        0x0 linker stubs
+.vfp11_veneer   0x00004b64        0x0
+ .vfp11_veneer  0x00004b64        0x0 linker stubs
 
-.v4_bx          0x000048e0        0x0
- .v4_bx         0x000048e0        0x0 linker stubs
+.v4_bx          0x00004b64        0x0
+ .v4_bx         0x00004b64        0x0 linker stubs
 
-.iplt           0x000048e0        0x0
- .iplt          0x000048e0        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x00004b64        0x0
+ .iplt          0x00004b64        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000048e0        0x8
-                0x000048e0                        __exidx_start = .
+.ARM            0x00004b64        0x8
+                0x00004b64                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000048e0        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
+ .ARM.exidx     0x00004b64        0x8 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x000048e8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x00004b6c        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x000048e8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x00004b6c        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x000048e8                        __exidx_end = .
+                0x00004b6c                        __exidx_end = .
 
-.rel.dyn        0x000048e8        0x0
- .rel.iplt      0x000048e8        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.rel.dyn        0x00004b6c        0x0
+ .rel.iplt      0x00004b6c        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ctors          0x000048e8        0x0
-                0x000048e8                        __CTOR_LIST__ = .
+.ctors          0x00004b6c        0x0
+                0x00004b6c                        __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x000048e8                        __CTOR_END__ = .
+                0x00004b6c                        __CTOR_END__ = .
 
-.dtors          0x000048e8        0x0
-                0x000048e8                        __DTOR_LIST__ = .
+.dtors          0x00004b6c        0x0
+                0x00004b6c                        __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000048e8                        __DTOR_END__ = .
+                0x00004b6c                        __DTOR_END__ = .
 
-.preinit_array  0x000048e8        0x0
-                0x000048e8                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00004b6c        0x0
+                0x00004b6c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000048e8                        PROVIDE (__preinit_array_end = .)
+                0x00004b6c                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000048e8        0x4
-                0x000048e8                        PROVIDE (__init_array_start = .)
+.init_array     0x00004b6c        0x4
+                0x00004b6c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000048e8        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x000048ec                        PROVIDE (__init_array_end = .)
+ .init_array    0x00004b6c        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x00004b70                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x000048ec        0x4
+.fini_array     0x00004b70        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000048ec        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x00004b70        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000048f0                        __etext = .
-                0x000048f0                        __DATA_ROM = .
+                0x00004b74                        __etext = .
+                0x00004b74                        __DATA_ROM = .
 
-.data           0x20000000        0x4 load address 0x000048f0
+.data           0x20000000       0x14 load address 0x00004b74
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        __DATA_RAM = .
                 0x20000000                        __data_start__ = .
  *(.data)
  *(.data*)
+ .data.channelPulseWidth
+                0x20000000       0x10 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x20000000                channelPulseWidth
  .data.SystemCoreClock
-                0x20000000        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
-                0x20000000                SystemCoreClock
+                0x20000010        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x20000010                SystemCoreClock
  *(.jcr*)
-                0x20000004                        . = ALIGN (0x4)
-                0x20000004                        __data_end__ = .
+                0x20000014                        . = ALIGN (0x4)
+                0x20000014                        __data_end__ = .
                 0x00000000                        __CACHE_REGION_START = ORIGIN (m_interrupts)
                 0x00000000                        __CACHE_REGION_SIZE = 0x0
-                0x000048f4                        __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
+                0x00004b88                        __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
 
 .tm_clone_table
-                0x20000004        0x0 load address 0x000048f4
+                0x20000014        0x0 load address 0x00004b88
  .tm_clone_table
-                0x20000004        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x20000014        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  .tm_clone_table
-                0x20000004        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtend.o
+                0x20000014        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtend.o
 
-.igot.plt       0x20000004        0x0 load address 0x000048f4
- .igot.plt      0x20000004        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+.igot.plt       0x20000014        0x0 load address 0x00004b88
+ .igot.plt      0x20000014        0x0 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ncache.init    0x80000000        0x0 load address 0x000048f4
+.ncache.init    0x80000000        0x0 load address 0x00004b88
                 0x80000000                        __noncachedata_start__ = .
  *(NonCacheable.init)
                 0x80000000                        . = ALIGN (0x4)
@@ -1682,55 +1685,76 @@ LOAD C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.
  *(NonCacheable)
                 0x80000000                        . = ALIGN (0x4)
                 0x80000000                        __noncachedata_end__ = .
-                0x000048f4                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00004b88                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x00020000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
-.bss            0x20000004       0x50 load address 0x000048f4
-                0x20000004                        . = ALIGN (0x4)
-                0x20000004                        __START_BSS = .
-                0x20000004                        __bss_start__ = .
+.bss            0x20000014       0x68 load address 0x00004b88
+                0x20000014                        . = ALIGN (0x4)
+                0x20000014                        __START_BSS = .
+                0x20000014                        __bss_start__ = .
  *(.bss)
  *(.bss*)
  .bss.completed.1
-                0x20000004        0x1 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
- *fill*         0x20000005        0x3 
- .bss.object.0  0x20000008       0x18 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x20000014        0x1 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *fill*         0x20000015        0x3 
+ .bss.object.0  0x20000018       0x18 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard/crtbegin.o
  .bss.gptIsrFlag
-                0x20000020        0x1 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
-                0x20000020                gptIsrFlag
- *fill*         0x20000021        0x3 
+                0x20000030        0x1 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x20000030                gptIsrFlag
+ *fill*         0x20000031        0x3 
+ .bss.lastCaptureVal
+                0x20000034        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x20000034                lastCaptureVal
+ .bss.captureVal
+                0x20000038        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x20000038                captureVal
+ .bss.currentChannel
+                0x2000003c        0x1 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x2000003c                currentChannel
+ .bss.newFrameComplete
+                0x2000003d        0x1 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x2000003d                newFrameComplete
+ *fill*         0x2000003e        0x2 
+ .bss.frameCounter
+                0x20000040        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x20000040                frameCounter
+ .bss.edgeCounter
+                0x20000044        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x20000044                edgeCounter
+ .bss.lastEdgeCount.1
+                0x20000048        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
  .bss.s_uartIsr
-                0x20000024        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x20000024                s_uartIsr
+                0x2000004c        0x4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x2000004c                s_uartIsr
  .bss.s_uartHandle
-                0x20000028       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
-                0x20000028                s_uartHandle
+                0x20000050       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x20000050                s_uartHandle
  .bss.s_debugConsole
-                0x2000003c       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x20000064       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .bss.__stdio_exit_handler
-                0x20000050        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-findfp.o)
-                0x20000050                __stdio_exit_handler
+                0x20000078        0x4 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-findfp.o)
+                0x20000078                __stdio_exit_handler
  *(COMMON)
-                0x20000054                        . = ALIGN (0x4)
-                0x20000054                        __bss_end__ = .
-                0x20000054                        __END_BSS = .
+                0x2000007c                        . = ALIGN (0x4)
+                0x2000007c                        __bss_end__ = .
+                0x2000007c                        __END_BSS = .
 
-.heap           0x20000054      0x404 load address 0x00004944
-                0x20000058                        . = ALIGN (0x8)
- *fill*         0x20000054        0x4 
-                0x20000058                        __end__ = .
-                0x20000058                        PROVIDE (end = .)
-                0x20000058                        __HeapBase = .
-                0x20000458                        . = (. + HEAP_SIZE)
- *fill*         0x20000058      0x400 
-                0x20000458                        __HeapLimit = .
-                0x20000458                        __heap_limit = .
+.heap           0x2000007c      0x404 load address 0x00004bf0
+                0x20000080                        . = ALIGN (0x8)
+ *fill*         0x2000007c        0x4 
+                0x20000080                        __end__ = .
+                0x20000080                        PROVIDE (end = .)
+                0x20000080                        __HeapBase = .
+                0x20000480                        . = (. + HEAP_SIZE)
+ *fill*         0x20000080      0x400 
+                0x20000480                        __HeapLimit = .
+                0x20000480                        __heap_limit = .
 
-.stack          0x20000458      0x400 load address 0x00004d48
-                0x20000458                        . = ALIGN (0x8)
-                0x20000858                        . = (. + STACK_SIZE)
- *fill*         0x20000458      0x400 
+.stack          0x20000480      0x400 load address 0x00004ff4
+                0x20000480                        . = ALIGN (0x8)
+                0x20000880                        . = (. + STACK_SIZE)
+ *fill*         0x20000480      0x400 
                 0x20020000                        __StackTop = (ORIGIN (m_data) + LENGTH (m_data))
                 0x2001fc00                        __StackLimit = (__StackTop - STACK_SIZE)
                 0x20020000                        PROVIDE (__stack = __StackTop)
@@ -1820,45 +1844,45 @@ LOAD linker stubs
  .debug_line_str
                 0x00000398       0xeb C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-strlen.o)
 
-.debug_info     0x00000000     0xdf52
- .debug_info    0x00000000      0xe67 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- .debug_info    0x00000e67       0xa9 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
- .debug_info    0x00000f10     0x1851 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- .debug_info    0x00002761     0x1329 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
- .debug_info    0x00003a8a      0x1a4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
- .debug_info    0x00003c2e       0xa9 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
- .debug_info    0x00003cd7      0xbe8 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .debug_info    0x000048bf      0xf1c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
- .debug_info    0x000057db      0xb73 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .debug_info    0x0000634e      0x834 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .debug_info    0x00006b82     0x1ff6 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .debug_info    0x00008b78      0xbb1 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .debug_info    0x00009729     0x2379 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .debug_info    0x0000baa2     0x15c3 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .debug_info    0x0000d065       0x25 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
- .debug_info    0x0000d08a      0x126 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_info    0x0000d1b0      0xcff CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_info    0x0000deaf       0xa3 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
+.debug_info     0x00000000     0xe02b
+ .debug_info    0x00000000      0xf40 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ .debug_info    0x00000f40       0xa9 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
+ .debug_info    0x00000fe9     0x1851 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ .debug_info    0x0000283a     0x1329 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+ .debug_info    0x00003b63      0x1a4 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+ .debug_info    0x00003d07       0xa9 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+ .debug_info    0x00003db0      0xbe8 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .debug_info    0x00004998      0xf1c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .debug_info    0x000058b4      0xb73 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .debug_info    0x00006427      0x834 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .debug_info    0x00006c5b     0x1ff6 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .debug_info    0x00008c51      0xbb1 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .debug_info    0x00009802     0x2379 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .debug_info    0x0000bb7b     0x15c3 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .debug_info    0x0000d13e       0x25 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .debug_info    0x0000d163      0x126 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_info    0x0000d289      0xcff CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_info    0x0000df88       0xa3 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
-.debug_abbrev   0x00000000     0x1e11
- .debug_abbrev  0x00000000      0x2a1 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- .debug_abbrev  0x000002a1       0x61 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
- .debug_abbrev  0x00000302      0x36f CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- .debug_abbrev  0x00000671      0x1dd CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
- .debug_abbrev  0x0000084e       0x96 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
- .debug_abbrev  0x000008e4       0x57 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
- .debug_abbrev  0x0000093b      0x1e1 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .debug_abbrev  0x00000b1c       0x26 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
- .debug_abbrev  0x00000b42      0x1f5 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .debug_abbrev  0x00000d37      0x1be CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .debug_abbrev  0x00000ef5      0x309 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .debug_abbrev  0x000011fe      0x1ea CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .debug_abbrev  0x000013e8      0x3cd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .debug_abbrev  0x000017b5      0x2dd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .debug_abbrev  0x00001a92       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
- .debug_abbrev  0x00001aa6       0xa8 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_abbrev  0x00001b4e      0x25c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_abbrev  0x00001daa       0x67 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
+.debug_abbrev   0x00000000     0x1e2c
+ .debug_abbrev  0x00000000      0x2bc CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ .debug_abbrev  0x000002bc       0x61 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
+ .debug_abbrev  0x0000031d      0x36f CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ .debug_abbrev  0x0000068c      0x1dd CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+ .debug_abbrev  0x00000869       0x96 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+ .debug_abbrev  0x000008ff       0x57 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+ .debug_abbrev  0x00000956      0x1e1 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .debug_abbrev  0x00000b37       0x26 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .debug_abbrev  0x00000b5d      0x1f5 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .debug_abbrev  0x00000d52      0x1be CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .debug_abbrev  0x00000f10      0x309 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .debug_abbrev  0x00001219      0x1ea CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .debug_abbrev  0x00001403      0x3cd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .debug_abbrev  0x000017d0      0x2dd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .debug_abbrev  0x00001aad       0x14 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .debug_abbrev  0x00001ac1       0xa8 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_abbrev  0x00001b69      0x25c CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_abbrev  0x00001dc5       0x67 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
 .debug_aranges  0x00000000      0x690
  .debug_aranges
@@ -1899,76 +1923,76 @@ LOAD linker stubs
                 0x00000670       0x20 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
 .debug_rnglists
-                0x00000000      0x47a
+                0x00000000      0x47b
  .debug_rnglists
-                0x00000000       0x44 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                0x00000000       0x45 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
  .debug_rnglists
-                0x00000044       0x4b CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+                0x00000045       0x4b CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
  .debug_rnglists
-                0x0000008f       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+                0x00000090       0x20 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
  .debug_rnglists
-                0x000000af       0x26 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+                0x000000b0       0x26 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
  .debug_rnglists
-                0x000000d5       0x13 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+                0x000000d6       0x13 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
  .debug_rnglists
-                0x000000e8       0x3a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+                0x000000e9       0x3a CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
  .debug_rnglists
-                0x00000122       0x2e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+                0x00000123       0x2e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
  .debug_rnglists
-                0x00000150       0x27 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+                0x00000151       0x27 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
  .debug_rnglists
-                0x00000177      0x100 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+                0x00000178      0x100 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
  .debug_rnglists
-                0x00000277       0x32 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+                0x00000278       0x32 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
  .debug_rnglists
-                0x000002a9      0x10e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+                0x000002aa      0x10e CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
  .debug_rnglists
-                0x000003b7       0x51 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+                0x000003b8       0x51 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
  .debug_rnglists
-                0x00000408       0x19 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+                0x00000409       0x19 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
  .debug_rnglists
-                0x00000421       0x59 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x00000422       0x59 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
 
-.debug_line     0x00000000     0x5615
- .debug_line    0x00000000      0x4ee CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- .debug_line    0x000004ee      0x11a CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
- .debug_line    0x00000608      0x7ce CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- .debug_line    0x00000dd6      0x313 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
- .debug_line    0x000010e9      0x1f2 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
- .debug_line    0x000012db       0xb2 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
- .debug_line    0x0000138d      0x43b CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .debug_line    0x000017c8      0x3b2 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
- .debug_line    0x00001b7a      0x389 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .debug_line    0x00001f03      0x2fd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .debug_line    0x00002200      0xc8f CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .debug_line    0x00002e8f      0x442 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .debug_line    0x000032d1     0x14e8 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .debug_line    0x000047b9      0x4dc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .debug_line    0x00004c95       0x88 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
- .debug_line    0x00004d1d      0x122 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_line    0x00004e3f      0x792 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_line    0x000055d1       0x44 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
+.debug_line     0x00000000     0x56bd
+ .debug_line    0x00000000      0x596 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ .debug_line    0x00000596      0x11a CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
+ .debug_line    0x000006b0      0x7ce CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ .debug_line    0x00000e7e      0x313 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+ .debug_line    0x00001191      0x1f2 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+ .debug_line    0x00001383       0xb2 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+ .debug_line    0x00001435      0x43b CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .debug_line    0x00001870      0x3b2 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .debug_line    0x00001c22      0x389 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .debug_line    0x00001fab      0x2fd CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .debug_line    0x000022a8      0xc8f CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .debug_line    0x00002f37      0x442 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .debug_line    0x00003379     0x14e8 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .debug_line    0x00004861      0x4dc CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .debug_line    0x00004d3d       0x88 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .debug_line    0x00004dc5      0x122 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_line    0x00004ee7      0x792 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_line    0x00005679       0x44 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
-.debug_str      0x00000000     0xa8ff
- .debug_str     0x00000000     0xa8ff CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
-                               0x1c83 (size before relaxing)
- .debug_str     0x0000a8ff      0x226 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
- .debug_str     0x0000a8ff     0x213e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- .debug_str     0x0000a8ff     0x2185 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
- .debug_str     0x0000a8ff      0x2c6 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
- .debug_str     0x0000a8ff      0x275 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
- .debug_str     0x0000a8ff     0x133d CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .debug_str     0x0000a8ff     0x1d73 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
- .debug_str     0x0000a8ff      0x9cb CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .debug_str     0x0000a8ff     0x13d5 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .debug_str     0x0000a8ff     0x28de CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .debug_str     0x0000a8ff     0x153d CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .debug_str     0x0000a8ff     0x2d2d CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .debug_str     0x0000a8ff     0x27e5 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .debug_str     0x0000a8ff       0xb2 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
- .debug_str     0x0000a8ff      0x270 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_str     0x0000a8ff     0x1470 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_str     0x0000a8ff      0x1f7 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
+.debug_str      0x00000000     0xa98d
+ .debug_str     0x00000000     0xa98d CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+                               0x1d11 (size before relaxing)
+ .debug_str     0x0000a98d      0x226 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/empty_rsc_table.c.obj
+ .debug_str     0x0000a98d     0x213e CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ .debug_str     0x0000a98d     0x2185 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+ .debug_str     0x0000a98d      0x2c6 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+ .debug_str     0x0000a98d      0x275 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+ .debug_str     0x0000a98d     0x133d CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .debug_str     0x0000a98d     0x1d73 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj
+ .debug_str     0x0000a98d      0x9cb CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .debug_str     0x0000a98d     0x13d5 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .debug_str     0x0000a98d     0x28de CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .debug_str     0x0000a98d     0x153d CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .debug_str     0x0000a98d     0x2d2d CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .debug_str     0x0000a98d     0x27e5 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .debug_str     0x0000a98d       0xb2 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj
+ .debug_str     0x0000a98d      0x270 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_str     0x0000a98d     0x1470 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_str     0x0000a98d      0x1f7 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
 .comment        0x00000000       0x44
  .comment       0x00000000       0x44 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
@@ -1989,28 +2013,28 @@ LOAD linker stubs
  .comment       0x00000044       0x45 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
  .comment       0x00000044       0x45 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
-.debug_frame    0x00000000     0x1938
- .debug_frame   0x00000000      0x158 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
- .debug_frame   0x00000158      0x190 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
- .debug_frame   0x000002e8       0x70 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
- .debug_frame   0x00000358       0xa0 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
- .debug_frame   0x000003f8       0x2c CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
- .debug_frame   0x00000424      0x110 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
- .debug_frame   0x00000534       0xd4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
- .debug_frame   0x00000608       0xb4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
- .debug_frame   0x000006bc      0x578 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
- .debug_frame   0x00000c34       0xec CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
- .debug_frame   0x00000d20      0x5f4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
- .debug_frame   0x00001314      0x1a4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
- .debug_frame   0x000014b8       0x58 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
- .debug_frame   0x00001510      0x1f0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
- .debug_frame   0x00001700       0x2c C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000172c       0x34 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00001760       0x28 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-exit.o)
- .debug_frame   0x00001788      0x144 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x000018cc       0x20 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x000018ec       0x2c C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x00001918       0x20 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
+.debug_frame    0x00000000     0x1940
+ .debug_frame   0x00000000      0x160 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/gpt_capture.c.obj
+ .debug_frame   0x00000160      0x190 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/board.c.obj
+ .debug_frame   0x000002f0       0x70 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/clock_config.c.obj
+ .debug_frame   0x00000360       0xa0 CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/pin_mux.c.obj
+ .debug_frame   0x00000400       0x2c CMakeFiles/gpt_capture_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/gpt_capture2/hardware_init.c.obj
+ .debug_frame   0x0000042c      0x110 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj
+ .debug_frame   0x0000053c       0xd4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj
+ .debug_frame   0x00000610       0xb4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj
+ .debug_frame   0x000006c4      0x578 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj
+ .debug_frame   0x00000c3c       0xec CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpt.c.obj
+ .debug_frame   0x00000d28      0x5f4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj
+ .debug_frame   0x0000131c      0x1a4 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj
+ .debug_frame   0x000014c0       0x58 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj
+ .debug_frame   0x00001518      0x1f0 CMakeFiles/gpt_capture_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .debug_frame   0x00001708       0x2c C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00001734       0x34 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00001768       0x28 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00001790      0x144 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x000018d4       0x20 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x000018f4       0x2c C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x00001920       0x20 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)
 
 .debug_loc      0x00000000       0x15
  .debug_loc     0x00000000       0x15 C:/NXP/MCUXpressoIDE_24.12.148/ide/tools/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libcr_newlib_nohost.a(_exit.o)

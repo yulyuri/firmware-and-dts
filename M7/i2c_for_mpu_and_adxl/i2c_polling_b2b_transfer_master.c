@@ -1,13 +1,14 @@
 /*
- * Minimal change: same structure, now reads MPU on I2C5 and ADXL345 on I2C3.
+ * Combined I2C (MPU6050 + ADXL345) with GPIO LED blink on poll
  */
 
 #include <string.h>
 #include "board.h"
 #include "fsl_debug_console.h"
 #include "fsl_i2c.h"
+#include "fsl_gpio.h"
 #include "app.h"
-#include "fsl_clock.h"  /* CLOCK_GetRootClockFreq */
+#include "fsl_clock.h"
 
 /* MPU6050 (0x68 on I2C5) */
 #define MPU_ADDR_7BIT            0x68U
@@ -18,17 +19,20 @@
 
 /* ADXL345 (0x53 on I2C3) */
 #define ADXL_ADDR_7BIT           0x53U
-#define I2C_BAUDRATE_ADXL        400000U     /* ADXL is happy at 400 kHz; use 100 kHz if you prefer */
+#define I2C_BAUDRATE_ADXL        400000U
 #define ADXL_REG_DEVID           0x00
 #define ADXL_REG_BWRATE          0x2C
 #define ADXL_REG_POWERCTL        0x2D
 #define ADXL_REG_DATAFORMAT      0x31
-#define ADXL_REG_DATAX0          0x32       /* 6 bytes: X0,X1,Y0,Y1,Z0,Z1 (little-endian per axis) */
+#define ADXL_REG_DATAX0          0x32       /* 6 bytes */
 
 #define I2C_DATA_LENGTH          32U
 
 static uint8_t g_master_txBuff[I2C_DATA_LENGTH];
 static uint8_t g_master_rxBuff[I2C_DATA_LENGTH];
+
+/* LED status */
+volatile bool g_pinSet = false;
 
 int main(void)
 {
@@ -36,10 +40,15 @@ int main(void)
     uint32_t clk5, clk3;
     i2c_master_transfer_t xfer;
     status_t st;
+    gpio_pin_config_t led_config = {kGPIO_DigitalOutput, 0, kGPIO_NoIntmode};
 
     BOARD_InitHardware();
 
-    PRINTF("\r\nDUAL I2C DEMO test 345 (build %s %s)\r\n", __DATE__, __TIME__);
+    PRINTF("\r\nI2C + GPIO LED DEMO (build %s %s)\r\n", __DATE__, __TIME__);
+    PRINTF("LED will blink on each sensor poll\r\n");
+
+    /* Init LED GPIO */
+    GPIO_PinInit(LED_GPIO, LED_GPIO_PIN, &led_config);
 
     /* existing banner data */
     for (uint32_t i = 0; i < I2C_DATA_LENGTH; i++) g_master_txBuff[i] = (uint8_t)i;
@@ -106,7 +115,7 @@ int main(void)
         PRINTF("ADXL DEVID = 0x%02X\r\n", devid);
     }
 
-    /* ADXL: set BW_RATE=0x0A (100 Hz), DATA_FORMAT=0x00 (±2g, right-justified), POWER_CTL=0x08 (measure) */
+    /* ADXL: set BW_RATE=0x0A (100 Hz), DATA_FORMAT=0x00 (±2g), POWER_CTL=0x08 (measure) */
     {
         uint8_t v;
 
@@ -144,16 +153,32 @@ int main(void)
         (void)I2C_MasterTransferBlocking(I2C3_MASTER_BASE, &xfer);
     }
 
-    /* ---- Continuous polling: read both sensors ---- */
+    /* ---- Continuous polling: read both sensors and blink LED ---- */
     for (;;)
     {
+        /* Toggle LED at start of poll cycle */
+#if (defined(FSL_FEATURE_IGPIO_HAS_DR_TOGGLE) && (FSL_FEATURE_IGPIO_HAS_DR_TOGGLE == 1))
+        GPIO_PortToggle(LED_GPIO, 1u << LED_GPIO_PIN);
+#else
+        if (g_pinSet)
+        {
+            GPIO_PinWrite(LED_GPIO, LED_GPIO_PIN, 0U);
+            g_pinSet = false;
+        }
+        else
+        {
+            GPIO_PinWrite(LED_GPIO, LED_GPIO_PIN, 1U);
+            g_pinSet = true;
+        }
+#endif
+
         /* ---- MPU6050 burst (I2C5) ---- */
         {
             uint8_t raw[14];
             memset(&xfer, 0, sizeof(xfer));
             xfer.slaveAddress   = MPU_ADDR_7BIT;
             xfer.direction      = kI2C_Read;
-            xfer.subaddress     = MPU_REG_ACCEL_XOUT;   /* 0x3B */
+            xfer.subaddress     = MPU_REG_ACCEL_XOUT;
             xfer.subaddressSize = 1;
             xfer.data           = raw;
             xfer.dataSize       = sizeof raw;
@@ -161,7 +186,6 @@ int main(void)
 
             st = I2C_MasterTransferBlocking(I2C5_MASTER_BASE, &xfer);
             if (st == kStatus_Success) {
-                /* raw -> signed 16, then widen */
                 int32_t ax = (int16_t)((raw[0]  << 8) | raw[1]);
                 int32_t ay = (int16_t)((raw[2]  << 8) | raw[3]);
                 int32_t az = (int16_t)((raw[4]  << 8) | raw[5]);
@@ -169,7 +193,6 @@ int main(void)
                 int32_t gy = (int16_t)((raw[10] << 8) | raw[11]);
                 int32_t gz = (int16_t)((raw[12] << 8) | raw[13]);
 
-                /* scale: ±2g => 16384 LSB/g, ±250 dps => 131 LSB/(°/s) */
                 float ax_g = (float)ax / 16384.0f;
                 float ay_g = (float)ay / 16384.0f;
                 float az_g = (float)az / 16384.0f;
@@ -177,7 +200,6 @@ int main(void)
                 float gy_dps = (float)gy / 131.0f;
                 float gz_dps = (float)gz / 131.0f;
 
-                /* pretty block for MPU */
                 PRINTF(
                     "\r\nMPU6050 (I2C5)\r\n"
                     "  ACC [g ] : %8.3f  %8.3f  %8.3f\r\n"
@@ -195,7 +217,7 @@ int main(void)
             memset(&xfer, 0, sizeof(xfer));
             xfer.slaveAddress   = ADXL_ADDR_7BIT;
             xfer.direction      = kI2C_Read;
-            xfer.subaddress     = ADXL_REG_DATAX0;   /* 0x32 */
+            xfer.subaddress     = ADXL_REG_DATAX0;
             xfer.subaddressSize = 1;
             xfer.data           = d;
             xfer.dataSize       = sizeof d;
@@ -203,17 +225,14 @@ int main(void)
 
             st = I2C_MasterTransferBlocking(I2C3_MASTER_BASE, &xfer);
             if (st == kStatus_Success) {
-                /* little-endian ? */
                 int32_t x = (int16_t)((d[1] << 8) | d[0]);
                 int32_t y = (int16_t)((d[3] << 8) | d[2]);
                 int32_t z = (int16_t)((d[5] << 8) | d[4]);
 
-                /* ADXL345 default (±2g, right-justified 10-bit) ≈ 256 LSB/g */
                 float x_g = (float)x / 256.0f;
                 float y_g = (float)y / 256.0f;
                 float z_g = (float)z / 256.0f;
 
-                /* pretty block for ADXL */
                 PRINTF(
                     "ADXL345 (I2C3)\r\n"
                     "  ACC [g ] : %8.3f  %8.3f  %8.3f\r\n",
@@ -224,5 +243,7 @@ int main(void)
             }
         }
 
+        /* Delay */
+        SDK_DelayAtLeastUs(500000, SDK_DEVICE_MAXIMUM_CPU_CLOCK_FREQUENCY);  /* 100ms = 10Hz */
     }
 }

@@ -98,6 +98,10 @@ void BOARD_InitPins(void) {                                /*!< Function assigne
                         IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_HYS_MASK |
                         IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+    IOMUXC_SetPinMux(IOMUXC_NAND_READY_B_GPIO3_IO16, 0U);
+    IOMUXC_SetPinConfig(IOMUXC_NAND_READY_B_GPIO3_IO16, 
+                        IOMUXC_SW_PAD_CTL_PAD_PUE_MASK |
+                        IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
     
 
     /* Open-drain + fast slew + pull enabled + 100k PU + medium drive + hysteresis */

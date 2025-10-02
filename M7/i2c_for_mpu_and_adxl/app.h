@@ -26,6 +26,9 @@
 #define EXAMPLE_I2C_MASTER_BASEADDR I2C5_MASTER_BASE
 #define I2C_MASTER_CLK_FREQ         I2C5_MASTER_CLK_FREQ
 
+#define  LED_GPIO     GPIO3
+#define LED_GPIO_PIN 16U
+
 /*******************************************************************************
  * Prototypes
  ******************************************************************************/

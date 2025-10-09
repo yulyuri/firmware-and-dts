@@ -7,7 +7,10 @@
 #include "board.h"
 #include "app.h"
 #include "fsl_gpt.h"
-
+/**
+ * This example allows the decoding of PPM into pwm with 4 different channels
+ * Look at gpt.h to see the available configurations that you are able to play around with !
+ */
 /*******************************************************************************
  * Definitions
  ******************************************************************************/

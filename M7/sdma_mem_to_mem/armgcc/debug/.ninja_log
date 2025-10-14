@@ -1,0 +1,27 @@
+# ninja log v7
+730	11351	7821222255369513	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/empty_rsc_table.c.obj	ca03ce44c75429e
+1377	12515	7821222261858179	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj	d8289e3f7fe0aa6f
+505	19126	7821222253186740	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/sdma_memory_to_memory.c.obj	a657414268343a27
+1534	19318	7821222263430337	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj	a6992cb3156d88c
+1226	19567	7821222260345099	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj	3967306ea59aaa23
+1026	19756	7821222258334593	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/pin_mux.c.obj	6351089d2e5a5a7b
+1127	19850	7821222259356876	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/hardware_init.c.obj	4f39ec45a981fb6
+1670	20275	7821222264773608	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj	6b04c7300d41865e
+2448	20594	7821222272556795	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj	770d512114602bb2
+831	20808	7821222256398816	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/board.c.obj	5bb65d6f522f6625
+950	20829	7821222257575744	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/clock_config.c.obj	4cf3ad167282f2d4
+1941	20847	7821222267476782	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj	4b0b789b7ae10cf3
+1745	21050	7821222265537120	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj	217360b6abf7d418
+1827	21477	7821222266355969	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj	765375020376f43e
+19756	25866	7821222445658449	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj	ae4515c14bf23d04
+12516	26210	7821222373249108	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj	ee98316fc91ee3ab
+19570	26902	7821222443792632	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj	5ba3f7868fdb477a
+11366	27695	7821222361824868	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj	a9327b0c10a7bc1f
+19320	27713	7821222441293542	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj	4daf67ef4375ba3
+19135	29408	7821222439432158	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_sdma.c.obj	9421f0ae36a04dcb
+19851	30077	7821222446597457	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	bb3d82c516a5b511
+20278	30275	7821222450871409	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	3828f49b5a01d231
+20595	30562	7821222454039278	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	b9c72a84c14371d1
+30563	36517	7821222553879398	sdma_memory_to_memory_cm7.elf	ef5960b76fd66769
+680	8892	7821232779711539	CMakeFiles/sdma_memory_to_memory_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_mem_to_mem/sdma_memory_to_memory.c.obj	a657414268343a27
+8895	15773	7821232861792448	sdma_memory_to_memory_cm7.elf	ef5960b76fd66769

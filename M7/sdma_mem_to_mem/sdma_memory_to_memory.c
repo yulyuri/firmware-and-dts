@@ -54,9 +54,22 @@ int main(void)
     sdma_config_t userConfig;
 
     BOARD_InitHardware();
-
+    // ====== ADD THIS DEBUG CODE ======
+    PRINTF("\r\n=== Memory Address Investigation ===\r\n");
+    PRINTF("srcAddr  is at address: 0x%08X\r\n", (uint32_t)srcAddr);
+    PRINTF("destAddr is at address: 0x%08X\r\n", (uint32_t)destAddr);
+    PRINTF("context  is at address: 0x%08X\r\n", (uint32_t)&context);
+    
+    PRINTF("\r\nDistance between src and dest: %d bytes\r\n", 
+           (uint32_t)destAddr - (uint32_t)srcAddr);
+    
+    PRINTF("\r\nLet's look at the actual memory contents:\r\n");
+    PRINTF("srcAddr[0] = %d (at address 0x%08X)\r\n", srcAddr[0], (uint32_t)&srcAddr[0]);
+    PRINTF("srcAddr[1] = %d (at address 0x%08X)\r\n", srcAddr[1], (uint32_t)&srcAddr[1]);
+    PRINTF("srcAddr[2] = %d (at address 0x%08X)\r\n", srcAddr[2], (uint32_t)&srcAddr[2]);
+    PRINTF("srcAddr[3] = %d (at address 0x%08X)\r\n", srcAddr[3], (uint32_t)&srcAddr[3]);
     /* Print source buffer */
-    PRINTF("\r\nSDMA memory to memory transfer example begin.\r\n");
+    PRINTF("\r\nSDMA memory to memory transfer test 1 \r\n");
     PRINTF("\r\nDestination Buffer:\r\n");
     for (i = 0; i < BUFF_LENGTH; i++)
     {

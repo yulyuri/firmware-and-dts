@@ -1,0 +1,26 @@
+# ninja log v7
+1866	15249	7822081123236966	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj	7bd688e7fe2483d3
+1336	15815	7822081117935621	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/empty_rsc_table.c.obj	d16ea0d8ad3944c8
+1492	22494	7822081119503849	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/clock_config.c.obj	977f8a6a19152f8
+1644	23000	7822081121019161	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/hardware_init.c.obj	88f5ae867e9e97a
+1569	23198	7822081120279441	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/pin_mux.c.obj	60ff4a4f1ba61d8f
+2072	23307	7822081125319554	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj	82aa489987208c9e
+1115	23400	7822081115809588	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/uart_sdma_transfer.c.obj	840ac3b2e9eb9c4a
+1419	24014	7822081118770677	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/board.c.obj	58079fa16ef5ee55
+1805	25588	7822081122624629	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj	1b6beef37739fb14
+2465	25863	7822081129221532	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj	456321e2a98b6fce
+4690	26005	7822081151482597	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj	f952fca8d6a1379b
+4526	26024	7822081149862955	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj	cc1acb42f02f2ca4
+4630	26043	7822081150878617	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj	c1118cc1762eb1ab
+2278	26052	7822081127357659	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj	d815b6c16b924a53
+23400	30979	7822081338596491	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj	47313afc0c074dea
+23308	32187	7822081337676885	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj	b309e394a5f12919
+15824	32295	7822081262828828	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c.obj	a8958b66c71122a1
+15280	32732	7822081257492606	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj	91b7092f701f8698
+23198	33076	7822081336579264	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj	fcfb8d513572c40e
+22504	35129	7822081329633300	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj	cd4ec5a6e17b4596
+24016	35645	7822081344744041	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	dd9329f3889596d1
+23002	35666	7822081334613100	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_sdma.c.obj	fb49ec22c37e1019
+25867	36233	7822081363288009	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	3a9cafca544e2ce5
+25589	36405	7822081360542177	CMakeFiles/iuart_sdma_transfer_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	672fb07afc0dae4a
+36406	43168	7822081468816675	iuart_sdma_transfer_cm7.elf	6f5f50be438b4767

@@ -37,7 +37,7 @@ AT_NONCACHEABLE_SECTION_ALIGN(uart_transfer_t sendXfer, 4);
 AT_NONCACHEABLE_SECTION_ALIGN(uart_transfer_t receiveXfer, 4);
 
 AT_NONCACHEABLE_SECTION_ALIGN_INIT(uint8_t g_tipString[], 4) =
-    "Uart sdma transfer example\r\nBoard receives 8 characters then sends them out\r\nNow please input:\r\n";
+    "Uart sdma transfer test 2\r\nBoard receives 8 characters then sends them out\r\nNow please input:\r\n";
 
 AT_NONCACHEABLE_SECTION_ALIGN(uint8_t g_txBuffer[ECHO_BUFFER_LENGTH], 4);
 AT_NONCACHEABLE_SECTION_ALIGN(uint8_t g_rxBuffer[ECHO_BUFFER_LENGTH], 4);

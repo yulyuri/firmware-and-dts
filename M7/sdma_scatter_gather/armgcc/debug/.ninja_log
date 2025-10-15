@@ -1,0 +1,25 @@
+# ninja log v7
+707	5642	7821339937473254	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S.obj	9660c751b11d8770
+463	6254	7821339935040662	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_scatter_gather/empty_rsc_table.c.obj	c587ad7760b867ba
+741	8734	7821339937818537	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c.obj	adf847550ace04b6
+360	8870	7821339934040725	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_scatter_gather/sdma_scatter_gather.c.obj	c6f981d464ecfd5a
+554	9002	7821339935948448	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_scatter_gather/clock_config.c.obj	49d0f9b250bec914
+642	9610	7821339936825401	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_scatter_gather/hardware_init.c.obj	dff0760f45fb40c3
+1065	9680	7821339941060211	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c.obj	2fca6f847d459233
+506	9734	7821339935456871	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_scatter_gather/board.c.obj	98ff3ae2c9a1f182
+606	9806	7821339936473062	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/C_/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/sdma_scatter_gather/pin_mux.c.obj	e90587be94b2e267
+676	9900	7821339937160841	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c.obj	c6daac61164672b3
+1203	10217	7821339942436540	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c.obj	b0689dbb2008f39d
+780	10369	7821339938214168	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c.obj	ebee5589a8d7ec7
+822	10508	7821339938629380	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c.obj	ab23d45599514c43
+1163	10709	7821339942041292	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c.obj	8891bfb41685cf55
+9610	12501	7821340026523493	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S.obj	99e241da28cc0225
+5644	12636	7821339986857542	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c.obj	a21411206f3b0ad0
+9002	12752	7821340020439303	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c.obj	e49aa1007cc9c40b
+8872	13030	7821340019136780	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c.obj	a5565793c0f9bec3
+6257	13070	7821339992981943	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c.obj	3f2c2c273a0d8dc7
+8737	14153	7821340017789952	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_sdma.c.obj	6df568f20d693800
+9680	14809	7821340027221177	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c.obj	da7fdca410a9ea6b
+9806	15005	7821340028479838	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c.obj	6a7e7a845dfff02b
+9735	15018	7821340027769139	CMakeFiles/sdma_scatter_gather_cm7.elf.dir/c_/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c.obj	4344a12dede1b827
+15018	17913	7821340080648969	sdma_scatter_gather_cm7.elf	b6d04f03b8f75899

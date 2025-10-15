@@ -13,7 +13,8 @@
         "SdkRootDirPath": "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP",
         "POSTPROCESS_UTILITY": "",
         "MCUX_VENV_PATH": "",
-        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}"
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
       },
       "cacheVariables": {}
     },
@@ -26,7 +27,8 @@
         "SdkRootDirPath": "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP",
         "POSTPROCESS_UTILITY": "",
         "MCUX_VENV_PATH": "",
-        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}"
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
       },
       "cacheVariables": {}
     }

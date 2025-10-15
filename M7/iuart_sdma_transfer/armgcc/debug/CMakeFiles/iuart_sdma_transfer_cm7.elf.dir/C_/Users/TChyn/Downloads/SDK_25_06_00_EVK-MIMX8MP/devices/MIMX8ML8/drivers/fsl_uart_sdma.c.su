@@ -1,0 +1,12 @@
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/core_cm7.h:2013:22:__NVIC_EnableIRQ	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.h:672:24:EnableIRQ	24	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.h:779:20:UART_EnableTxDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.h:803:20:UART_EnableRxDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:72:13:UART_SendSDMACallback	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:91:13:UART_ReceiveSDMACallback	40	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:121:6:UART_TransferCreateHandleSDMA	32	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:192:10:UART_SendSDMA	120	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:254:10:UART_ReceiveSDMA	120	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:312:6:UART_TransferAbortSendSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:334:6:UART_TransferAbortReceiveSDMA	16	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart_sdma.c:356:6:UART_TransferSdmaHandleIRQ	32	static

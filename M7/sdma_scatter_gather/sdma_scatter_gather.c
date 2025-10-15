@@ -58,7 +58,7 @@ int main(void)
 
     BOARD_InitHardware();
     /* Print source buffer */
-    PRINTF("\r\nsdma scatter gather transfer example begin.\r\n\r\n");
+    PRINTF("\r\nsdma scatter gather transfer test 1 chyn\r\n\r\n");
     PRINTF("Destination Buffer:\r\n");
     for (i = 0; i < BUFFER_TOTAL_LEN; i++)
     {

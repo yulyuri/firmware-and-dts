@@ -1,0 +1,3 @@
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/armgcc/debug/CMakeFiles/iuart_sdma_transfer_cm7.elf.dir
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/armgcc/debug/CMakeFiles/edit_cache.dir
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/iuart_sdma_transfer/armgcc/debug/CMakeFiles/rebuild_cache.dir

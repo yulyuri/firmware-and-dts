@@ -3,17 +3,16 @@
 #include "board.h"
 #include "app.h"
 
-// ============================================
+
 // Memory Placement Macros
-// ============================================
 #define FAST_CODE   /* Default - ITCM */
 #define SLOW_CODE   __attribute__((section(".text_ddr"), noinline))
 #define SLOW_DATA   __attribute__((section(".rodata_ddr")))
-// Don't define DDR_BSS yet since we haven't added .bss_ddr section
 
-// ============================================
-// FAST CODE - ITCM
-// ============================================
+
+
+// faster CODE - ITCM
+
 FAST_CODE
 uint32_t flight_control_loop(uint32_t input)
 {
@@ -24,10 +23,10 @@ uint32_t flight_control_loop(uint32_t input)
     return result;
 }
 
-// ============================================
-// SLOW CODE - DDR
-// ============================================
-SLOW_CODE
+
+// slower CODE - DDR
+
+/// SLOW_CODE
 void mavlink_handler(void)
 {
     volatile uint32_t x = 0;
@@ -37,20 +36,20 @@ void mavlink_handler(void)
     PRINTF("MAVLink: %lu\r\n", x);
 }
 
-SLOW_CODE
+/// SLOW_CODE
 void logging_function(void)
 {
-    PRINTF("Logging to SD card...\r\n");
+    PRINTF("Logging to wtv place...\r\n");
 }
 
-SLOW_DATA
+/// SLOW_DATA
 const uint8_t crc_table[256] = {
     [0 ... 255] = 0xAA
 };
 
-// ============================================
-// Main
-// ============================================
+
+// Main code
+
 int main(void)
 {
     char ch;
@@ -59,7 +58,6 @@ int main(void)
 
     PRINTF("\r\n");
     PRINTF("Flight Controller Memory Test\r\n");
-    PRINTF("==============================\r\n");
     PRINTF("CRC table: %lu bytes\r\n", sizeof(crc_table));
     PRINTF("\r\n");
 

@@ -16,6 +16,7 @@
 			"project",
 			"target_link_libraries",
 			"group_link_libraries",
+			"target_compile_definitions",
 			"target_include_directories",
 			"include_if_use",
 			"target_sources",
@@ -25,7 +26,7 @@
 		[
 			"CMakeLists.txt",
 			"C:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/tools/cmake_toolchain_files/armgcc.cmake",
-			"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake",
+			"debug/CMakeFiles/4.1.0-rc3/CMakeSystem.cmake",
 			"C:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/tools/cmake_toolchain_files/mcux_config.cmake",
 			"c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/CMSIS_Include_core_cm.cmake",
 			"c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/all_lib_device.cmake",
@@ -68,7 +69,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 146,
+				"line" : 6,
 				"parent" : 3
 			},
 			{
@@ -108,6 +109,12 @@
 			{
 				"command" : 6,
 				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
 				"line" : 57,
 				"parent" : 0
 			},
@@ -119,385 +126,385 @@
 			},
 			{
 				"file" : 5,
-				"parent" : 12
+				"parent" : 13
 			},
 			{
-				"command" : 7,
+				"command" : 8,
 				"file" : 5,
 				"line" : 778,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 14
-			},
-			{
-				"file" : 4,
 				"parent" : 15
 			},
 			{
-				"command" : 6,
 				"file" : 4,
-				"line" : 6,
 				"parent" : 16
 			},
 			{
 				"command" : 7,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 796,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 18
-			},
-			{
-				"file" : 6,
 				"parent" : 19
 			},
 			{
-				"command" : 6,
 				"file" : 6,
-				"line" : 11,
 				"parent" : 20
 			},
 			{
 				"command" : 7,
+				"file" : 6,
+				"line" : 11,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 849,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 22
-			},
-			{
-				"file" : 7,
 				"parent" : 23
 			},
 			{
-				"command" : 6,
 				"file" : 7,
-				"line" : 6,
 				"parent" : 24
 			},
 			{
 				"command" : 7,
+				"file" : 7,
+				"line" : 6,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 855,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 26
-			},
-			{
-				"file" : 8,
 				"parent" : 27
 			},
 			{
-				"command" : 6,
 				"file" : 8,
-				"line" : 11,
 				"parent" : 28
 			},
 			{
 				"command" : 7,
+				"file" : 8,
+				"line" : 11,
+				"parent" : 29
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 976,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 30
-			},
-			{
-				"file" : 9,
 				"parent" : 31
 			},
 			{
-				"command" : 6,
 				"file" : 9,
-				"line" : 11,
 				"parent" : 32
 			},
 			{
 				"command" : 7,
+				"file" : 9,
+				"line" : 11,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 978,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 34
-			},
-			{
-				"file" : 10,
 				"parent" : 35
 			},
 			{
-				"command" : 6,
 				"file" : 10,
-				"line" : 11,
 				"parent" : 36
 			},
 			{
 				"command" : 7,
+				"file" : 10,
+				"line" : 11,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 981,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 38
-			},
-			{
-				"file" : 11,
 				"parent" : 39
 			},
 			{
-				"command" : 6,
 				"file" : 11,
-				"line" : 11,
 				"parent" : 40
 			},
 			{
-				"command" : 8,
-				"file" : 6,
-				"line" : 6,
-				"parent" : 20
-			},
-			{
 				"command" : 7,
-				"file" : 5,
-				"line" : 852,
-				"parent" : 13
-			},
-			{
-				"command" : 2,
-				"file" : 3,
-				"line" : 109,
-				"parent" : 43
-			},
-			{
-				"file" : 12,
-				"parent" : 44
+				"file" : 11,
+				"line" : 11,
+				"parent" : 41
 			},
 			{
 				"command" : 9,
+				"file" : 6,
+				"line" : 6,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 852,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 44
+			},
+			{
 				"file" : 12,
-				"line" : 11,
 				"parent" : 45
 			},
 			{
-				"command" : 8,
-				"file" : 3,
-				"line" : 134,
+				"command" : 10,
+				"file" : 12,
+				"line" : 11,
 				"parent" : 46
 			},
 			{
-				"command" : 7,
+				"command" : 9,
+				"file" : 3,
+				"line" : 134,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 853,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 48
-			},
-			{
-				"file" : 13,
 				"parent" : 49
 			},
 			{
-				"command" : 8,
 				"file" : 13,
-				"line" : 6,
 				"parent" : 50
 			},
 			{
-				"command" : 8,
-				"file" : 8,
+				"command" : 9,
+				"file" : 13,
 				"line" : 6,
-				"parent" : 28
+				"parent" : 51
 			},
 			{
-				"command" : 7,
+				"command" : 9,
+				"file" : 8,
+				"line" : 6,
+				"parent" : 29
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 857,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 53
-			},
-			{
-				"file" : 14,
 				"parent" : 54
 			},
 			{
-				"command" : 8,
 				"file" : 14,
-				"line" : 6,
 				"parent" : 55
 			},
 			{
-				"command" : 7,
+				"command" : 9,
+				"file" : 14,
+				"line" : 6,
+				"parent" : 56
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 863,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 57
-			},
-			{
-				"file" : 15,
 				"parent" : 58
 			},
 			{
-				"command" : 8,
+				"file" : 15,
+				"parent" : 59
+			},
+			{
+				"command" : 9,
 				"file" : 15,
 				"line" : 6,
-				"parent" : 59
+				"parent" : 60
+			},
+			{
+				"command" : 9,
+				"file" : 15,
+				"line" : 11,
+				"parent" : 60
 			},
 			{
 				"command" : 8,
-				"file" : 15,
-				"line" : 11,
-				"parent" : 59
-			},
-			{
-				"command" : 7,
 				"file" : 5,
 				"line" : 877,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 62
-			},
-			{
-				"file" : 16,
 				"parent" : 63
 			},
 			{
-				"command" : 8,
 				"file" : 16,
-				"line" : 6,
 				"parent" : 64
 			},
 			{
-				"command" : 7,
+				"command" : 9,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 65
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 882,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 66
-			},
-			{
-				"file" : 17,
 				"parent" : 67
 			},
 			{
-				"command" : 8,
 				"file" : 17,
-				"line" : 6,
 				"parent" : 68
 			},
 			{
-				"command" : 7,
+				"command" : 9,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 69
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 891,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 70
-			},
-			{
-				"file" : 18,
 				"parent" : 71
 			},
 			{
-				"command" : 8,
 				"file" : 18,
-				"line" : 6,
 				"parent" : 72
 			},
 			{
-				"command" : 7,
+				"command" : 9,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 73
+			},
+			{
+				"command" : 8,
 				"file" : 5,
 				"line" : 974,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 3,
 				"line" : 109,
-				"parent" : 74
-			},
-			{
-				"file" : 19,
 				"parent" : 75
 			},
 			{
-				"command" : 8,
+				"file" : 19,
+				"parent" : 76
+			},
+			{
+				"command" : 9,
 				"file" : 19,
 				"line" : 7,
-				"parent" : 76
+				"parent" : 77
 			},
 			{
-				"command" : 8,
+				"command" : 9,
 				"file" : 19,
 				"line" : 14,
-				"parent" : 76
+				"parent" : 77
 			},
 			{
-				"command" : 8,
+				"command" : 9,
 				"file" : 9,
 				"line" : 6,
-				"parent" : 32
+				"parent" : 33
 			},
 			{
-				"command" : 8,
+				"command" : 9,
 				"file" : 10,
 				"line" : 6,
-				"parent" : 36
+				"parent" : 37
 			},
 			{
-				"command" : 8,
+				"command" : 9,
 				"file" : 11,
 				"line" : 6,
-				"parent" : 40
+				"parent" : 41
 			}
 		]
 	},
@@ -507,49 +514,56 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16     -DSDK_DEBUGCONSOLE=1 "
+					"fragment" : "   -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g     -include C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16     -DSDK_DEBUGCONSOLE=1 "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "PRINTF_FLOAT_ENABLE=1"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 11,
+					"backtrace" : 12,
 					"path" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/.."
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/."
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/m-profile"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/."
 				},
 				{
-					"backtrace" : 25,
+					"backtrace" : 26,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/."
 				},
 				{
-					"backtrace" : 25,
+					"backtrace" : 26,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/periph"
 				},
 				{
-					"backtrace" : 29,
+					"backtrace" : 30,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/."
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 34,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/."
 				},
 				{
-					"backtrace" : 37,
+					"backtrace" : 38,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite"
 				},
 				{
-					"backtrace" : 41,
+					"backtrace" : 42,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str"
 				}
 			],
@@ -582,49 +596,56 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -g -g     -D__STARTUP_INITIALIZE_NONCACHEDATA     -D__STARTUP_CLEAR_BSS     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -mthumb     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16 "
+					"fragment" : "   -fstack-usage  -D__NEWLIB__       -g -g -g     -D__STARTUP_INITIALIZE_NONCACHEDATA     -D__STARTUP_CLEAR_BSS     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -mthumb     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16 "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "PRINTF_FLOAT_ENABLE=1"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 11,
+					"backtrace" : 12,
 					"path" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/.."
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/."
 				},
 				{
-					"backtrace" : 17,
+					"backtrace" : 18,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/CMSIS/Core/Include/m-profile"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 22,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/."
 				},
 				{
-					"backtrace" : 25,
+					"backtrace" : 26,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/."
 				},
 				{
-					"backtrace" : 25,
+					"backtrace" : 26,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/periph"
 				},
 				{
-					"backtrace" : 29,
+					"backtrace" : 30,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/."
 				},
 				{
-					"backtrace" : 33,
+					"backtrace" : 34,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/."
 				},
 				{
-					"backtrace" : 37,
+					"backtrace" : 38,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite"
 				},
 				{
-					"backtrace" : 41,
+					"backtrace" : 42,
 					"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str"
 				}
 			],
@@ -642,7 +663,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16     -DSDK_DEBUGCONSOLE=1",
+				"fragment" : "-fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g -O0 -g     -include C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MIMX8ML8DVNLZ_cm7     -DMIMX8ML8_cm7_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m7     -mfloat-abi=hard -mfpu=fpv5-d16     -DSDK_DEBUGCONSOLE=1",
 				"role" : "flags"
 			},
 			{
@@ -791,97 +812,97 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 42,
+			"backtrace" : 43,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/components/uart/fsl_adapter_iuart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 47,
+			"backtrace" : 48,
 			"compileGroupIndex" : 1,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/gcc/startup_MIMX8ML8_cm7.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 51,
+			"backtrace" : 52,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/system_MIMX8ML8_cm7.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 52,
+			"backtrace" : 53,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_audiomix.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 56,
+			"backtrace" : 57,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_clock.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 60,
+			"backtrace" : 61,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 61,
+			"backtrace" : 62,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_common_arm.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 65,
+			"backtrace" : 66,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_gpio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 69,
+			"backtrace" : 70,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_uart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 73,
+			"backtrace" : 74,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/fsl_rdc.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 78,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_syscall_stub.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 77,
+			"backtrace" : 78,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_sbrk.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 78,
+			"backtrace" : 79,
 			"compileGroupIndex" : 1,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/fsl_memcpy.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 79,
+			"backtrace" : 80,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_assert.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 80,
+			"backtrace" : 81,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 81,
+			"backtrace" : 82,
 			"compileGroupIndex" : 0,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/str/fsl_str.c",
 			"sourceGroupIndex" : 0

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "hello_world_cm7",
+					"name" : "ipwm_cm7",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "hello_world_cm7.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hello_world_cm7.elf-debug-a3b6b0d359caefcb2c24.json",
-					"name" : "hello_world_cm7.elf",
+					"id" : "ipwm_cm7.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ipwm_cm7.elf-debug-fa486e9a5340f231c44c.json",
+					"name" : "ipwm_cm7.elf",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/debug",
-		"source" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc"
+		"build" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/pwm8/armgcc/debug",
+		"source" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/pwm8/armgcc"
 	},
 	"version" : 
 	{

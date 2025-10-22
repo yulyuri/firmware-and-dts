@@ -9,4 +9,5 @@ c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/deb
 c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c:248:5:DbgConsole_Getchar	16	static
 c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c:275:13:DbgConsole_PrintfPaddingCharacter	32	static
 c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c:298:16:DbgConsole_ConvertRadixNumToString	64	static
-c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c:566:12:DbgConsole_PrintfFormattedData	120	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c:456:16:DbgConsole_ConvertFloatRadixNumToString	104	static
+c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/utilities/debug_console_lite/fsl_debug_console.c:566:12:DbgConsole_PrintfFormattedData	136	static

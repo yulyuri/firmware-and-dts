@@ -1293,6 +1293,10 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/driver_ipwm.MIMX8ML8.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "c:/Users/TChyn/Downloads/SDK_25_06_00_EVK-MIMX8MP/devices/MIMX8ML8/drivers/driver_iuart.MIMX8ML8.cmake"
 		},
 		{
@@ -1323,8 +1327,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc/debug",
-		"source" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/linker_script/armgcc"
+		"build" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/pwm8/armgcc/debug",
+		"source" : "C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/pwm8/armgcc"
 	},
 	"version" : 
 	{

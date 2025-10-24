@@ -1,83 +1,56 @@
 /*
- * TCM vs DDR FFT Benchmark
- * FIXED: Ensures DDR data is actually allocated
+ * SIMPLE TCM vs DDR Benchmark with FFT
+ * Clean version with easy-to-use macros
  */
 
 #include "fsl_device_registers.h"
 #include "fsl_debug_console.h"
 #include "board.h"
 #include "app.h"
-#include <string.h>
 
-/* ============================================
- * Configuration
- * ============================================ */
-#define CPU_FREQ_MHZ    800
-#define PI              3.14159265358979f
+#define CPU_MHZ  800
+#define PI       3.14159265f
 
-/* ============================================
- * Cycle Counter
- * ============================================ */
-static inline void init_cycle_counter(void) {
+/*EASY MACROS */
+#define FAST_CODE   /* Nothing because default is TCM  */
+#define SLOW_CODE   __attribute__((section(".text_ddr")))
+#define SLOW_DATA   __attribute__((section(".rodata_ddr")))
+
+
+static inline void start_timer(void) {
     CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
-    DWT->CYCCNT = 0;
     DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+    DWT->CYCCNT = 0;
 }
 
 static inline uint32_t get_cycles(void) {
     return DWT->CYCCNT;
 }
 
-void print_speedup(uint32_t cycles_tcm, uint32_t cycles_ddr) {
-    uint32_t speedup_x100 = (cycles_ddr * 100) / cycles_tcm;
-    uint32_t whole = speedup_x100 / 100;
-    uint32_t frac = speedup_x100 % 100;
-    PRINTF("Speedup: %u.%02ux\r\n", whole, frac);
-}
-
-/* ============================================
- * Simple Complex Number Type
- * ============================================ */
+/*FFT SETUP*/
 typedef struct {
     float real;
     float imag;
 } complex_t;
 
-/* ============================================
- * TCM FFT Buffers (Default)
- * ============================================ */
-complex_t fft_buffer_tcm_256[256];  // 4 KB
+// Fast FFT buffer (TCM - default)
+complex_t fft_tcm[256];
 
-/* ============================================
- * DDR FFT Buffers (Explicit) - VOLATILE!
- * Use volatile to prevent optimization
- * ============================================ */
-__attribute__((section(".data_ddr")))
-volatile complex_t fft_buffer_ddr_256[256];  // 4 KB
+// Slow FFT buffer (DDR) - FIXED: added const like array_slow
+SLOW_DATA const float fft_ddr_storage[512] = {0};
 
-__attribute__((section(".data_ddr")))
-volatile complex_t fft_buffer_ddr_512[512];  // 8 KB
-
-__attribute__((section(".data_ddr")))
-volatile float large_log_buffer[5000];  // 20 KB - clearly in DDR
-
-/* ============================================
- * Fast Trig Functions
- * ============================================ */
-float fast_sin(float x) {
+/*MATH funct*/
+float simple_sin(float x) {
     while (x > PI) x -= 2*PI;
     while (x < -PI) x += 2*PI;
-    float x2 = x * x;
-    return x * (1.0f - x2/6.0f * (1.0f - x2/20.0f));
+    return x * (1.0f - x*x/6.0f);
 }
 
-float fast_cos(float x) {
-    return fast_sin(x + PI/2.0f);
+float simple_cos(float x) {
+    return simple_sin(x + PI/2.0f);
 }
 
-/* ============================================
- * Bit Reversal
- * ============================================ */
+/*BIT reversal*/
 uint32_t reverse_bits(uint32_t x, uint32_t bits) {
     uint32_t result = 0;
     for (uint32_t i = 0; i < bits; i++) {
@@ -87,10 +60,9 @@ uint32_t reverse_bits(uint32_t x, uint32_t bits) {
     return result;
 }
 
-/* ============================================
- * FFT for TCM buffers
- * ============================================ */
-void fft_radix2_tcm(complex_t *data, uint32_t n) {
+/*FFT ALGO - TCM*/
+FAST_CODE
+void compute_fft_fast(complex_t *data, uint32_t n) {
     // Bit reversal
     uint32_t bits = 0;
     uint32_t temp = n;
@@ -108,7 +80,7 @@ void fft_radix2_tcm(complex_t *data, uint32_t n) {
         }
     }
     
-    // FFT computation
+    // FFT butterfly
     for (uint32_t stage = 1; stage <= bits; stage++) {
         uint32_t m = 1 << stage;
         uint32_t m2 = m >> 1;
@@ -116,8 +88,8 @@ void fft_radix2_tcm(complex_t *data, uint32_t n) {
         for (uint32_t k = 0; k < n; k += m) {
             for (uint32_t j = 0; j < m2; j++) {
                 float angle = -2.0f * PI * j / m;
-                float wr = fast_cos(angle);
-                float wi = fast_sin(angle);
+                float wr = simple_cos(angle);
+                float wi = simple_sin(angle);
                 
                 uint32_t idx1 = k + j;
                 uint32_t idx2 = k + j + m2;
@@ -134,11 +106,9 @@ void fft_radix2_tcm(complex_t *data, uint32_t n) {
     }
 }
 
-/* ============================================
- * FFT for DDR buffers (separate function to prevent inlining)
- * ============================================ */
-__attribute__((section(".text_ddr"), noinline))
-void fft_radix2_ddr(volatile complex_t *data, uint32_t n) {
+/* FFT ALGO - SLOW (DDR)*/
+SLOW_CODE
+void compute_fft_slow(complex_t *data, uint32_t n) {
     // Bit reversal
     uint32_t bits = 0;
     uint32_t temp = n;
@@ -150,17 +120,13 @@ void fft_radix2_ddr(volatile complex_t *data, uint32_t n) {
     for (uint32_t i = 0; i < n; i++) {
         uint32_t j = reverse_bits(i, bits);
         if (j > i) {
-            complex_t tmp;
-            tmp.real = data[i].real;
-            tmp.imag = data[i].imag;
-            data[i].real = data[j].real;
-            data[i].imag = data[j].imag;
-            data[j].real = tmp.real;
-            data[j].imag = tmp.imag;
+            complex_t tmp = data[i];
+            data[i] = data[j];
+            data[j] = tmp;
         }
     }
     
-    // FFT computation
+    // FFT butterfly
     for (uint32_t stage = 1; stage <= bits; stage++) {
         uint32_t m = 1 << stage;
         uint32_t m2 = m >> 1;
@@ -168,8 +134,8 @@ void fft_radix2_ddr(volatile complex_t *data, uint32_t n) {
         for (uint32_t k = 0; k < n; k += m) {
             for (uint32_t j = 0; j < m2; j++) {
                 float angle = -2.0f * PI * j / m;
-                float wr = fast_cos(angle);
-                float wi = fast_sin(angle);
+                float wr = simple_cos(angle);
+                float wi = simple_sin(angle);
                 
                 uint32_t idx1 = k + j;
                 uint32_t idx2 = k + j + m2;
@@ -187,207 +153,164 @@ void fft_radix2_ddr(volatile complex_t *data, uint32_t n) {
 }
 
 /* ============================================
- * Generate Test Signal
+ * TEST 1: Simple Loop
  * ============================================ */
-void generate_gyro_signal_tcm(complex_t *buffer, uint32_t size) {
-    float fs = 1000.0f;
-    for (uint32_t i = 0; i < size; i++) {
-        float t = (float)i / fs;
-        buffer[i].real = 1.0f + 
-                        0.5f * fast_sin(2*PI*50*t) +
-                        0.3f * fast_sin(2*PI*200*t);
-        buffer[i].imag = 0.0f;
+FAST_CODE
+uint32_t simple_loop_fast(uint32_t count) {
+    uint32_t sum = 0;
+    for (uint32_t i = 0; i < count; i++) {
+        sum += i;
     }
+    return sum;
 }
 
-void generate_gyro_signal_ddr(volatile complex_t *buffer, uint32_t size) {
-    float fs = 1000.0f;
-    for (uint32_t i = 0; i < size; i++) {
-        float t = (float)i / fs;
-        buffer[i].real = 1.0f + 
-                        0.5f * fast_sin(2*PI*50*t) +
-                        0.3f * fast_sin(2*PI*200*t);
-        buffer[i].imag = 0.0f;
+SLOW_CODE
+uint32_t simple_loop_slow(uint32_t count) {
+    uint32_t sum = 0;
+    for (uint32_t i = 0; i < count; i++) {
+        sum += i;
     }
+    return sum;
 }
 
-/* ============================================
- * Test: 256-point FFT
- * ============================================ */
-void test_fft_256(void) {
-    uint32_t cycles_tcm, cycles_ddr;
+void test_simple_loop(void) {
+    PRINTF("\r\n=== Test 1: Simple Loop ===\r\n");
     
-    PRINTF("\r\n=== FFT 256-point (4 KB) ===\r\n");
-    PRINTF("Use case: Gyro vibration filtering\r\n\r\n");
-    
-    // Generate signals
-    generate_gyro_signal_tcm(fft_buffer_tcm_256, 256);
-    generate_gyro_signal_ddr(fft_buffer_ddr_256, 256);
-    
-    // TCM FFT
     uint32_t start = get_cycles();
-    fft_radix2_tcm(fft_buffer_tcm_256, 256);
-    cycles_tcm = get_cycles() - start;
+    simple_loop_fast(5000);
+    uint32_t fast = get_cycles() - start;
     
-    // DDR FFT
     start = get_cycles();
-    fft_radix2_ddr(fft_buffer_ddr_256, 256);
-    cycles_ddr = get_cycles() - start;
+    simple_loop_slow(5000);
+    uint32_t slow = get_cycles() - start;
     
-    uint32_t time_tcm = (cycles_tcm * 100) / CPU_FREQ_MHZ;
-    uint32_t time_ddr = (cycles_ddr * 100) / CPU_FREQ_MHZ;
-    
-    PRINTF("TCM: %u cycles (%u.%02u us)\r\n", 
-           cycles_tcm, time_tcm / 100, time_tcm % 100);
-    PRINTF("DDR: %u cycles (%u.%02u us)\r\n", 
-           cycles_ddr, time_ddr / 100, time_ddr % 100);
-    print_speedup(cycles_tcm, cycles_ddr);
-    
-    // Verify result
-    PRINTF("DC bin[0]: %.1f\r\n", fft_buffer_tcm_256[0].real);
+    PRINTF("FAST (TCM): %u cycles (%u us)\r\n", fast, fast/CPU_MHZ);
+    PRINTF("SLOW (DDR): %u cycles (%u us)\r\n", slow, slow/CPU_MHZ);
+    PRINTF("Speedup: %ux\r\n", slow/fast);
 }
 
 /* ============================================
- * Test: Array Processing (Sensor Logging)
+ * TEST 2: FFT - NOW WITH COMPARISON!
  * ============================================ */
-void test_sensor_logging(void) {
-    PRINTF("\r\n=== Sensor Data Logging ===\r\n");
-    PRINTF("Logging 5000 samples\r\n\r\n");
+void test_fft(void) {
+    PRINTF("\r\n=== Test 2: FFT ===\r\n");
     
-    // Write sensor data to DDR log
-    uint32_t start = get_cycles();
-    for (uint32_t i = 0; i < 5000; i++) {
-        // Simulate sensor reading and logging
-        large_log_buffer[i] = (float)i * 0.01f;
+    // Copy FFT buffer to local (so we can modify it)
+    complex_t fft_ddr_local[256];
+    
+    // Generate test signal for TCM buffer
+    for (uint32_t i = 0; i < 256; i++) {
+        float t = (float)i / 1000.0f;
+        fft_tcm[i].real = 1.0f +
+                          0.5f * simple_sin(2*PI*50*t) +
+                          0.3f * simple_sin(2*PI*200*t);
+        fft_tcm[i].imag = 0.0f;
+        
+        // Same for DDR test
+        fft_ddr_local[i] = fft_tcm[i];
     }
-    uint32_t cycles_write = get_cycles() - start;
     
-    // Read back from log
+    // Test FAST (TCM)
+    uint32_t start = get_cycles();
+    compute_fft_fast(fft_tcm, 256);
+    uint32_t fast = get_cycles() - start;
+    
+    // Test SLOW (DDR) - use local buffer
+    start = get_cycles();
+    compute_fft_slow(fft_ddr_local, 256);
+    uint32_t slow = get_cycles() - start;
+    
+    PRINTF("FAST (TCM): %u cycles (%u us)\r\n", fast, fast/CPU_MHZ);
+    PRINTF("SLOW (DDR): %u cycles (%u us)\r\n", slow, slow/CPU_MHZ);
+    PRINTF("Speedup: %ux\r\n", slow/fast);
+}
+
+/* ============================================
+ * TEST 3: Array Access
+ * ============================================ */
+float array_fast[500];
+
+SLOW_DATA const float array_slow[500] = {[0 ... 499] = 1.0f};
+
+void test_arrays(void) {
+    PRINTF("\r\n=== Test 3: Array Access ===\r\n");
+    
+    // Fill fast array
+    for (int i = 0; i < 500; i++) {
+        array_fast[i] = (float)i;
+    }
+    
+    // Read fast array
     volatile float sum = 0;
-    start = get_cycles();
-    for (uint32_t i = 0; i < 5000; i++) {
-        sum += large_log_buffer[i];
-    }
-    uint32_t cycles_read = get_cycles() - start;
-    
-    uint32_t time_write = (cycles_write * 100) / CPU_FREQ_MHZ;
-    uint32_t time_read = (cycles_read * 100) / CPU_FREQ_MHZ;
-    
-    PRINTF("Write: %u cycles (%u.%02u us)\r\n",
-           cycles_write, time_write / 100, time_write % 100);
-    PRINTF("Read:  %u cycles (%u.%02u us)\r\n",
-           cycles_read, time_read / 100, time_read % 100);
-    PRINTF("Sum: %u (verify)\r\n", (uint32_t)sum);
-}
-
-/* ============================================
- * Test: Matrix Operations (Kalman Filter)
- * ============================================ */
-#define MAT_SIZE 4
-
-void matrix_multiply(float A[MAT_SIZE][MAT_SIZE],
-                     float B[MAT_SIZE][MAT_SIZE],
-                     float C[MAT_SIZE][MAT_SIZE]) {
-    for (int i = 0; i < MAT_SIZE; i++) {
-        for (int j = 0; j < MAT_SIZE; j++) {
-            C[i][j] = 0;
-            for (int k = 0; k < MAT_SIZE; k++) {
-                C[i][j] += A[i][k] * B[k][j];
-            }
-        }
-    }
-}
-
-void test_matrix_kalman(void) {
-    PRINTF("\r\n=== Matrix Ops (EKF 4x4) ===\r\n");
-    PRINTF("100 iterations @ 100 Hz\r\n\r\n");
-    
-    // TCM matrices
-    float A_tcm[MAT_SIZE][MAT_SIZE];
-    float B_tcm[MAT_SIZE][MAT_SIZE];
-    float C_tcm[MAT_SIZE][MAT_SIZE];
-    
-    // Initialize
-    for (int i = 0; i < MAT_SIZE; i++) {
-        for (int j = 0; j < MAT_SIZE; j++) {
-            A_tcm[i][j] = (float)(i + j + 1);
-            B_tcm[i][j] = (float)(i * j + 1);
-        }
-    }
-    
-    // Benchmark
     uint32_t start = get_cycles();
-    for (int iter = 0; iter < 100; iter++) {
-        matrix_multiply(A_tcm, B_tcm, C_tcm);
+    for (int i = 0; i < 500; i++) {
+        sum += array_fast[i];
     }
-    uint32_t cycles = get_cycles() - start;
+    uint32_t fast = get_cycles() - start;
     
-    uint32_t time = (cycles * 100) / CPU_FREQ_MHZ;
-    uint32_t per_iter = (cycles * 100) / (CPU_FREQ_MHZ * 100);
+    // Read slow array
+    sum = 0;
+    start = get_cycles();
+    for (int i = 0; i < 500; i++) {
+        sum += array_slow[i];
+    }
+    uint32_t slow = get_cycles() - start;
     
-    PRINTF("Total: %u cycles (%u.%02u us)\r\n",
-           cycles, time / 100, time % 100);
-    PRINTF("Per iteration: %u.%02u us\r\n",
-           per_iter / 100, per_iter % 100);
-    PRINTF("Result[0][0]: %.1f\r\n", C_tcm[0][0]);
+    PRINTF("FAST (TCM): %u cycles (%u us)\r\n", fast, fast/CPU_MHZ);
+    PRINTF("SLOW (DDR): %u cycles (%u us)\r\n", slow, slow/CPU_MHZ);
+    
+    if (slow > fast) {
+        PRINTF("Speedup: %.1fx\r\n", (float)slow/fast);
+    } else {
+        PRINTF("Note: Cache helps DDR\r\n");
+    }
 }
 
 /* ============================================
- * Main
+ * MAIN
  * ============================================ */
 int main(void)
 {
-    char ch;
-    
     BOARD_InitHardware();
+    start_timer();
     
     PRINTF("\r\n");
     PRINTF("========================================\r\n");
-    PRINTF("  Flight Controller FFT Benchmark\r\n");
-    PRINTF("  TCM vs DDR Performance\r\n");
-    PRINTF("  Cortex-M7 @ 800 MHz\r\n");
+    PRINTF(" TCM vs DDR \r\n");
     PRINTF("========================================\r\n");
+    uint32_t cpu_freq = CLOCK_GetFreq(kCLOCK_CoreM7Clk);
+    PRINTF("CPU frequency: %u Hz\r\n", cpu_freq);
+    // Should print: CPU frequency: 800000000 Hz
     
-    PRINTF("\r\nMemory Layout:\r\n");
-    PRINTF("  ITCM: 128 KB (code)\r\n");
-    PRINTF("  DTCM: 128 KB (data)\r\n");
-    PRINTF("  DDR:  16 MB (large buffers)\r\n");
+    // Show memory layout
+    PRINTF("\r\nMemory Addresses:\r\n");
+    PRINTF("  Fast code:  0x%08X (TCM)\r\n", (uint32_t)simple_loop_fast);
+    PRINTF("  Slow code:  0x%08X (DDR)\r\n", (uint32_t)simple_loop_slow);
+    PRINTF("  FFT buffer: 0x%08X (TCM)\r\n", (uint32_t)fft_tcm);
+    PRINTF("  Fast array: 0x%08X (TCM)\r\n", (uint32_t)array_fast);
+    PRINTF("  Slow array: 0x%08X (DDR)\r\n", (uint32_t)array_slow);
     
-    // Show memory addresses
-    PRINTF("\r\nBuffer Locations:\r\n");
-    PRINTF("  TCM buffer: 0x%08X\r\n", (uint32_t)fft_buffer_tcm_256);
-    PRINTF("  DDR buffer: 0x%08X\r\n", (uint32_t)fft_buffer_ddr_256);
-    PRINTF("  DDR log:    0x%08X\r\n", (uint32_t)large_log_buffer);
+    // Check placement
+    if ((uint32_t)simple_loop_slow >= 0x80000000) {
+        PRINTF("\r\n✓ DDR code working!\r\n");
+    } else {
+        PRINTF("\r\n✗ DDR code failed!\r\n");
+    }
     
-    init_cycle_counter();
+    if ((uint32_t)array_slow >= 0x80000000) {
+        PRINTF("✓ DDR data working!\r\n");
+    } else {
+        PRINTF("✗ DDR data failed!\r\n");
+    }
     
-    // Run tests
-    test_fft_256();
-    test_sensor_logging();
-    test_matrix_kalman();
+    // Run all tests
+    test_simple_loop();
+    test_fft();
+    test_arrays();
     
-    // Summary
-    PRINTF("\r\n========================================\r\n");
-    PRINTF("Flight Controller Recommendations\r\n");
-    PRINTF("========================================\r\n");
-    PRINTF("\r\n");
-    PRINTF("Real-time FFT (< 1 ms):\r\n");
-    PRINTF("  - Use TCM for ~5x speedup\r\n");
-    PRINTF("  - 256-point fits comfortably\r\n");
-    PRINTF("\r\n");
-    PRINTF("Large buffers (logs, telemetry):\r\n");
-    PRINTF("  - Use DDR (20+ KB buffers)\r\n");
-    PRINTF("  - Sequential access is fast enough\r\n");
-    PRINTF("\r\n");
-    PRINTF("Matrix operations (EKF):\r\n");
-    PRINTF("  - Keep in TCM (small size)\r\n");
-    PRINTF("  - Critical for sensor fusion\r\n");
-    PRINTF("\r\n");
-    PRINTF("Echo mode:\r\n");
-
-    while (1)
-    {
-        ch = GETCHAR();
+    
+    while (1) {
+        char ch = GETCHAR();
         PUTCHAR(ch);
     }
 }

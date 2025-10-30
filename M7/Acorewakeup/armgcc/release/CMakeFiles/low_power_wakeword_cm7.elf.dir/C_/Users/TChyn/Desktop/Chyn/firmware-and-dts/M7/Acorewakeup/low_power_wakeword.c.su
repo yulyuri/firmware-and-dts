@@ -1,0 +1,5 @@
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewakeup/low_power_wakeword.c:30:13:busy_delay_us	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewakeup/low_power_wakeword.c:59:13:MU_Fire_GIR	8	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewakeup/low_power_wakeword.c:65:13:MainTask	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewakeup/low_power_wakeword.c:105:5:main	16	static
+C:/Users/TChyn/Desktop/Chyn/firmware-and-dts/M7/Acorewakeup/low_power_wakeword.c:124:6:vApplicationMallocFailedHook	8	static

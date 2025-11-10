@@ -71,7 +71,7 @@ SECTIONS
     KEEP (*(.fini))
     . = ALIGN(4);
   } > m_text
-  /* ===== ADD THESE NEW SECTIONS HERE ===== */
+  /* ===== NEW NEW NEW NEW NEW NEW NEW SECTIONS HERE ===== */
   
   /* Code placed in DDR (for large, non-critical functions) */
   .text_ddr :

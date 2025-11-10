@@ -15,6 +15,10 @@
 #define RPMSG_LITE_SHMEM_BASE         (VDEV0_VRING_BASE)
 #define RPMSG_LITE_LINK_ID            (RL_PLATFORM_IMX8MP_M7_USER_LINK_ID)
 #define RPMSG_LITE_NS_ANNOUNCE_STRING "rpmsg-virtual-tty-channel-1"
+#define I2C3_MASTER_BASE        I2C3
+#define I2C3_MASTER_CLK_FREQ                                                               \
+    (CLOCK_GetPllFreq(kCLOCK_SystemPll1Ctrl) / (CLOCK_GetRootPreDivider(kCLOCK_RootI2c3)) / \
+     (CLOCK_GetRootPostDivider(kCLOCK_RootI2c3)) / 5) /* SYSTEM PLL1 DIV5 */
 /*${macro:end}*/
 
 /*******************************************************************************

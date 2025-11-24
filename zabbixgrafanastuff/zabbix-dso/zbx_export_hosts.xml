@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.4</version>
+    <date>2025-11-24T08:00:04Z</date>
+    <groups>
+        <group>
+            <name>Linux servers</name>
+        </group>
+        <group>
+            <name>Zabbix servers</name>
+        </group>
+    </groups>
+    <hosts>
+        <host>
+            <host>imx8mp-board</host>
+            <name>imx8mp-board</name>
+            <templates>
+                <template>
+                    <name>Template OS Linux by Zabbix agent</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Linux servers</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <ip>192.168.8.189</ip>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <applications>
+                <application>
+                    <name>Power Domain</name>
+                </application>
+            </applications>
+            <items>
+                <item>
+                    <name>CPU0 Frequency</name>
+                    <key>cpu.freq</key>
+                    <delay>5s</delay>
+                    <units>MHz</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU Temperature</name>
+                    <key>cpu.temp</key>
+                    <delay>10s</delay>
+                    <units>°C</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU0 frequency</name>
+                    <key>cpu0.freq</key>
+                    <delay>5s</delay>
+                    <units>Mhz</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU0 Usage</name>
+                    <key>cpu0.usage</key>
+                    <delay>10s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU0 Usage (Real time)</name>
+                    <key>cpu0.usage.sh</key>
+                    <delay>5s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU1 frequency</name>
+                    <key>cpu1.freq</key>
+                    <delay>5s</delay>
+                    <units>Mhz</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU1 Usage</name>
+                    <key>cpu1.usage</key>
+                    <delay>10s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU1 Usage (Real time)</name>
+                    <key>cpu1.usage.sh</key>
+                    <delay>5s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU2 frequency</name>
+                    <key>cpu2.freq</key>
+                    <delay>5s</delay>
+                    <units>Mhz</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU2 Usage</name>
+                    <key>cpu2.usage</key>
+                    <delay>10s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU2 Usage (Real time)</name>
+                    <key>cpu2.usage.sh</key>
+                    <delay>5s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU3 frequency</name>
+                    <key>cpu3.freq</key>
+                    <delay>5s</delay>
+                    <units>Mhz</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU3 Usage</name>
+                    <key>cpu3.usage</key>
+                    <delay>10s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>CPU3 Usage (Real time)</name>
+                    <key>cpu3.usage.sh</key>
+                    <delay>5s</delay>
+                    <units>%</units>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Available Memory2</name>
+                    <key>mem2.available</key>
+                    <delay>10s</delay>
+                    <units>MB</units>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Total Memory2</name>
+                    <key>mem2.total</key>
+                    <delay>10s</delay>
+                    <units>MB</units>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Used Memory2</name>
+                    <key>mem2.used</key>
+                    <delay>10s</delay>
+                    <units>MB</units>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Used Memory (%)</name>
+                    <key>mem2.used.percent</key>
+                    <delay>10s</delay>
+                    <units>MB</units>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:audiomix</name>
+                    <key>power.audiomix.sudo</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:gpu2d</name>
+                    <key>power.gpu2d.sudo</key>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:gpu3d</name>
+                    <key>power.gpu3d</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:gpu3d2</name>
+                    <key>power.gpu3d.sudo</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:mlmix</name>
+                    <key>power.mlmix.sudo</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:vpu-g1</name>
+                    <key>power.vpu-g1.sudo</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:vpu-g2</name>
+                    <key>power.vpu-g2.sudo</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Power Domain:vpumix</name>
+                    <key>power.vpumix.sudo</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>Power Domain</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+                <item>
+                    <name>Active Process Count2</name>
+                    <key>proc.count</key>
+                    <delay>10s</delay>
+                    <applications>
+                        <application>
+                            <name>CPU</name>
+                        </application>
+                    </applications>
+                    <interface_ref>if1</interface_ref>
+                </item>
+            </items>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>zabbix-agent-1</host>
+            <name>zabbix-agent-1</name>
+            <templates>
+                <template>
+                    <name>Template OS Linux by Zabbix agent</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Linux servers</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <ip>172.18.0.3</ip>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+        <host>
+            <host>Zabbix server</host>
+            <name>Zabbix server</name>
+            <templates>
+                <template>
+                    <name>Template App Zabbix Server</name>
+                </template>
+                <template>
+                    <name>Template OS Linux by Zabbix agent</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Zabbix servers</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <inventory_mode>DISABLED</inventory_mode>
+        </host>
+    </hosts>
+</zabbix_export>
